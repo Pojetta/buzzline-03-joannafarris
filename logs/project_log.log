@@ -1,0 +1,288 @@
+2025-09-08 23:49:30 | INFO | Processed JSON message: {'timestamp': '2025-09-09T04:49:30.727786', 'temperature': 94.8}
+2025-09-08 23:49:30 | INFO | Rolling window size: 10
+2025-09-08 23:49:30 | INFO | Max stall temperature range: 0.2 F
+2025-09-08 23:49:35 | INFO | Processed JSON message: {'timestamp': '2025-09-09T04:49:35.736155', 'temperature': 95.2}
+2025-09-08 23:49:35 | INFO | Rolling window size: 10
+2025-09-08 23:49:35 | INFO | Max stall temperature range: 0.2 F
+2025-09-08 23:49:40 | INFO | Processed JSON message: {'timestamp': '2025-09-09T04:49:40.745346', 'temperature': 95.6}
+2025-09-08 23:49:40 | INFO | Rolling window size: 10
+2025-09-08 23:49:40 | INFO | Max stall temperature range: 0.2 F
+2025-09-08 23:49:45 | INFO | Processed JSON message: {'timestamp': '2025-09-09T04:49:45.749573', 'temperature': 96.0}
+2025-09-08 23:49:45 | INFO | Rolling window size: 10
+2025-09-08 23:49:45 | INFO | Max stall temperature range: 0.2 F
+2025-09-08 23:49:50 | INFO | Processed JSON message: {'timestamp': '2025-09-09T04:49:50.757946', 'temperature': 96.4}
+2025-09-08 23:49:50 | INFO | Rolling window size: 10
+2025-09-08 23:49:50 | INFO | Max stall temperature range: 0.2 F
+2025-09-08 23:49:55 | INFO | Processed JSON message: {'timestamp': '2025-09-09T04:49:55.762406', 'temperature': 96.8}
+2025-09-08 23:49:55 | INFO | Rolling window size: 10
+2025-09-08 23:49:55 | INFO | Max stall temperature range: 0.2 F
+2025-09-08 23:50:00 | INFO | Processed JSON message: {'timestamp': '2025-09-09T04:50:00.770573', 'temperature': 97.2}
+2025-09-08 23:50:00 | INFO | Rolling window size: 10
+2025-09-08 23:50:00 | INFO | Max stall temperature range: 0.2 F
+2025-09-08 23:50:05 | INFO | Processed JSON message: {'timestamp': '2025-09-09T04:50:05.779786', 'temperature': 97.6}
+2025-09-08 23:50:05 | INFO | Rolling window size: 10
+2025-09-08 23:50:05 | INFO | Max stall temperature range: 0.2 F
+2025-09-08 23:50:10 | INFO | Processed JSON message: {'timestamp': '2025-09-09T04:50:10.788034', 'temperature': 98.0}
+2025-09-08 23:50:10 | INFO | Rolling window size: 10
+2025-09-08 23:50:10 | INFO | Max stall temperature range: 0.2 F
+2025-09-08 23:50:15 | INFO | Processed JSON message: {'timestamp': '2025-09-09T04:50:15.796773', 'temperature': 98.4}
+2025-09-08 23:50:15 | INFO | Rolling window size: 10
+2025-09-08 23:50:15 | INFO | Max stall temperature range: 0.2 F
+2025-09-08 23:50:20 | INFO | Processed JSON message: {'timestamp': '2025-09-09T04:50:20.805323', 'temperature': 98.8}
+2025-09-08 23:50:20 | INFO | Rolling window size: 10
+2025-09-08 23:50:20 | INFO | Max stall temperature range: 0.2 F
+2025-09-08 23:50:25 | INFO | Processed JSON message: {'timestamp': '2025-09-09T04:50:25.814369', 'temperature': 99.2}
+2025-09-08 23:50:25 | INFO | Rolling window size: 10
+2025-09-08 23:50:25 | INFO | Max stall temperature range: 0.2 F
+2025-09-08 23:50:30 | INFO | Processed JSON message: {'timestamp': '2025-09-09T04:50:30.820749', 'temperature': 99.6}
+2025-09-08 23:50:30 | INFO | Rolling window size: 10
+2025-09-08 23:50:30 | INFO | Max stall temperature range: 0.2 F
+2025-09-08 23:50:35 | INFO | Processed JSON message: {'timestamp': '2025-09-09T04:50:35.829853', 'temperature': 100.0}
+2025-09-08 23:50:35 | INFO | Rolling window size: 10
+2025-09-08 23:50:35 | INFO | Max stall temperature range: 0.2 F
+2025-09-08 23:50:40 | INFO | Processed JSON message: {'timestamp': '2025-09-09T04:50:40.838622', 'temperature': 100.4}
+2025-09-08 23:50:40 | INFO | Rolling window size: 10
+2025-09-08 23:50:40 | INFO | Max stall temperature range: 0.2 F
+2025-09-08 23:50:45 | INFO | Processed JSON message: {'timestamp': '2025-09-09T04:50:45.847760', 'temperature': 100.8}
+2025-09-08 23:50:45 | INFO | Rolling window size: 10
+2025-09-08 23:50:45 | INFO | Max stall temperature range: 0.2 F
+2025-09-08 23:50:50 | INFO | Processed JSON message: {'timestamp': '2025-09-09T04:50:50.856704', 'temperature': 101.2}
+2025-09-08 23:50:50 | INFO | Rolling window size: 10
+2025-09-08 23:50:50 | INFO | Max stall temperature range: 0.2 F
+2025-09-08 23:50:55 | INFO | Processed JSON message: {'timestamp': '2025-09-09T04:50:55.860094', 'temperature': 101.6}
+2025-09-08 23:50:55 | INFO | Rolling window size: 10
+2025-09-08 23:50:55 | INFO | Max stall temperature range: 0.2 F
+2025-09-08 23:51:00 | INFO | Processed JSON message: {'timestamp': '2025-09-09T04:51:00.865903', 'temperature': 102.0}
+2025-09-08 23:51:00 | INFO | Rolling window size: 10
+2025-09-08 23:51:00 | INFO | Max stall temperature range: 0.2 F
+2025-09-08 23:51:05 | INFO | Processed JSON message: {'timestamp': '2025-09-09T04:51:05.870084', 'temperature': 102.4}
+2025-09-08 23:51:05 | INFO | Rolling window size: 10
+2025-09-08 23:51:05 | INFO | Max stall temperature range: 0.2 F
+2025-09-08 23:51:10 | INFO | Processed JSON message: {'timestamp': '2025-09-09T04:51:10.878392', 'temperature': 102.8}
+2025-09-08 23:51:10 | INFO | Rolling window size: 10
+2025-09-08 23:51:10 | INFO | Max stall temperature range: 0.2 F
+2025-09-08 23:51:15 | INFO | Processed JSON message: {'timestamp': '2025-09-09T04:51:15.883389', 'temperature': 103.2}
+2025-09-08 23:51:15 | INFO | Rolling window size: 10
+2025-09-08 23:51:15 | INFO | Max stall temperature range: 0.2 F
+2025-09-08 23:51:20 | INFO | Processed JSON message: {'timestamp': '2025-09-09T04:51:20.891900', 'temperature': 103.6}
+2025-09-08 23:51:20 | INFO | Rolling window size: 10
+2025-09-08 23:51:20 | INFO | Max stall temperature range: 0.2 F
+2025-09-08 23:51:25 | INFO | Processed JSON message: {'timestamp': '2025-09-09T04:51:25.897856', 'temperature': 104.0}
+2025-09-08 23:51:25 | INFO | Rolling window size: 10
+2025-09-08 23:51:25 | INFO | Max stall temperature range: 0.2 F
+2025-09-08 23:51:30 | INFO | Processed JSON message: {'timestamp': '2025-09-09T04:51:30.906835', 'temperature': 104.4}
+2025-09-08 23:51:30 | INFO | Rolling window size: 10
+2025-09-08 23:51:30 | INFO | Max stall temperature range: 0.2 F
+2025-09-08 23:51:35 | INFO | Processed JSON message: {'timestamp': '2025-09-09T04:51:35.915463', 'temperature': 104.8}
+2025-09-08 23:51:35 | INFO | Rolling window size: 10
+2025-09-08 23:51:35 | INFO | Max stall temperature range: 0.2 F
+2025-09-08 23:51:40 | INFO | Processed JSON message: {'timestamp': '2025-09-09T04:51:40.924213', 'temperature': 105.2}
+2025-09-08 23:51:40 | INFO | Rolling window size: 10
+2025-09-08 23:51:40 | INFO | Max stall temperature range: 0.2 F
+2025-09-08 23:51:45 | INFO | Processed JSON message: {'timestamp': '2025-09-09T04:51:45.932323', 'temperature': 105.6}
+2025-09-08 23:51:45 | INFO | Rolling window size: 10
+2025-09-08 23:51:45 | INFO | Max stall temperature range: 0.2 F
+2025-09-08 23:51:50 | INFO | Processed JSON message: {'timestamp': '2025-09-09T04:51:50.938603', 'temperature': 106.0}
+2025-09-08 23:51:50 | INFO | Rolling window size: 10
+2025-09-08 23:51:50 | INFO | Max stall temperature range: 0.2 F
+2025-09-08 23:51:55 | INFO | Processed JSON message: {'timestamp': '2025-09-09T04:51:55.947294', 'temperature': 106.4}
+2025-09-08 23:51:55 | INFO | Rolling window size: 10
+2025-09-08 23:51:55 | INFO | Max stall temperature range: 0.2 F
+2025-09-08 23:52:00 | INFO | Processed JSON message: {'timestamp': '2025-09-09T04:52:00.955340', 'temperature': 106.8}
+2025-09-08 23:52:00 | INFO | Rolling window size: 10
+2025-09-08 23:52:00 | INFO | Max stall temperature range: 0.2 F
+2025-09-08 23:52:05 | INFO | Processed JSON message: {'timestamp': '2025-09-09T04:52:05.963682', 'temperature': 107.2}
+2025-09-08 23:52:05 | INFO | Rolling window size: 10
+2025-09-08 23:52:05 | INFO | Max stall temperature range: 0.2 F
+2025-09-08 23:52:10 | INFO | Processed JSON message: {'timestamp': '2025-09-09T04:52:10.972196', 'temperature': 107.6}
+2025-09-08 23:52:10 | INFO | Rolling window size: 10
+2025-09-08 23:52:10 | INFO | Max stall temperature range: 0.2 F
+2025-09-08 23:52:15 | INFO | Processed JSON message: {'timestamp': '2025-09-09T04:52:15.980238', 'temperature': 108.0}
+2025-09-08 23:52:15 | INFO | Rolling window size: 10
+2025-09-08 23:52:15 | INFO | Max stall temperature range: 0.2 F
+2025-09-08 23:52:20 | INFO | Processed JSON message: {'timestamp': '2025-09-09T04:52:20.988842', 'temperature': 108.4}
+2025-09-08 23:52:20 | INFO | Rolling window size: 10
+2025-09-08 23:52:20 | INFO | Max stall temperature range: 0.2 F
+2025-09-08 23:52:26 | INFO | Processed JSON message: {'timestamp': '2025-09-09T04:52:25.997815', 'temperature': 108.8}
+2025-09-08 23:52:26 | INFO | Rolling window size: 10
+2025-09-08 23:52:26 | INFO | Max stall temperature range: 0.2 F
+2025-09-08 23:52:31 | INFO | Processed JSON message: {'timestamp': '2025-09-09T04:52:31.006553', 'temperature': 109.2}
+2025-09-08 23:52:31 | INFO | Rolling window size: 10
+2025-09-08 23:52:31 | INFO | Max stall temperature range: 0.2 F
+2025-09-08 23:52:36 | INFO | Processed JSON message: {'timestamp': '2025-09-09T04:52:36.014797', 'temperature': 109.6}
+2025-09-08 23:52:36 | INFO | Rolling window size: 10
+2025-09-08 23:52:36 | INFO | Max stall temperature range: 0.2 F
+2025-09-08 23:52:41 | INFO | Processed JSON message: {'timestamp': '2025-09-09T04:52:41.023077', 'temperature': 110.0}
+2025-09-08 23:52:41 | INFO | Rolling window size: 10
+2025-09-08 23:52:41 | INFO | Max stall temperature range: 0.2 F
+2025-09-08 23:52:46 | INFO | Processed JSON message: {'timestamp': '2025-09-09T04:52:46.031609', 'temperature': 110.4}
+2025-09-08 23:52:46 | INFO | Rolling window size: 10
+2025-09-08 23:52:46 | INFO | Max stall temperature range: 0.2 F
+2025-09-08 23:52:51 | INFO | Processed JSON message: {'timestamp': '2025-09-09T04:52:51.040331', 'temperature': 110.8}
+2025-09-08 23:52:51 | INFO | Rolling window size: 10
+2025-09-08 23:52:51 | INFO | Max stall temperature range: 0.2 F
+2025-09-08 23:52:56 | INFO | Processed JSON message: {'timestamp': '2025-09-09T04:52:56.049082', 'temperature': 111.2}
+2025-09-08 23:52:56 | INFO | Rolling window size: 10
+2025-09-08 23:52:56 | INFO | Max stall temperature range: 0.2 F
+2025-09-08 23:53:01 | INFO | Processed JSON message: {'timestamp': '2025-09-09T04:53:01.054673', 'temperature': 111.6}
+2025-09-08 23:53:01 | INFO | Rolling window size: 10
+2025-09-08 23:53:01 | INFO | Max stall temperature range: 0.2 F
+2025-09-08 23:53:06 | INFO | Processed JSON message: {'timestamp': '2025-09-09T04:53:06.062931', 'temperature': 112.0}
+2025-09-08 23:53:06 | INFO | Rolling window size: 10
+2025-09-08 23:53:06 | INFO | Max stall temperature range: 0.2 F
+2025-09-08 23:53:11 | INFO | Processed JSON message: {'timestamp': '2025-09-09T04:53:11.070475', 'temperature': 112.4}
+2025-09-08 23:53:11 | INFO | Rolling window size: 10
+2025-09-08 23:53:11 | INFO | Max stall temperature range: 0.2 F
+2025-09-08 23:53:16 | INFO | Processed JSON message: {'timestamp': '2025-09-09T04:53:16.079071', 'temperature': 112.8}
+2025-09-08 23:53:16 | INFO | Rolling window size: 10
+2025-09-08 23:53:16 | INFO | Max stall temperature range: 0.2 F
+2025-09-08 23:53:21 | INFO | Processed JSON message: {'timestamp': '2025-09-09T04:53:21.087295', 'temperature': 113.2}
+2025-09-08 23:53:21 | INFO | Rolling window size: 10
+2025-09-08 23:53:21 | INFO | Max stall temperature range: 0.2 F
+2025-09-08 23:53:26 | INFO | Processed JSON message: {'timestamp': '2025-09-09T04:53:26.096366', 'temperature': 113.6}
+2025-09-08 23:53:26 | INFO | Rolling window size: 10
+2025-09-08 23:53:26 | INFO | Max stall temperature range: 0.2 F
+2025-09-08 23:53:31 | INFO | Processed JSON message: {'timestamp': '2025-09-09T04:53:31.108873', 'temperature': 114.0}
+2025-09-08 23:53:31 | INFO | Rolling window size: 10
+2025-09-08 23:53:31 | INFO | Max stall temperature range: 0.2 F
+2025-09-08 23:53:36 | INFO | Processed JSON message: {'timestamp': '2025-09-09T04:53:36.114243', 'temperature': 114.4}
+2025-09-08 23:53:36 | INFO | Rolling window size: 10
+2025-09-08 23:53:36 | INFO | Max stall temperature range: 0.2 F
+2025-09-08 23:53:41 | INFO | Processed JSON message: {'timestamp': '2025-09-09T04:53:41.125570', 'temperature': 114.8}
+2025-09-08 23:53:41 | INFO | Rolling window size: 10
+2025-09-08 23:53:41 | INFO | Max stall temperature range: 0.2 F
+2025-09-08 23:55:08 | INFO | Processed JSON message: {'timestamp': '2025-09-09T04:55:08.444928', 'temperature': 115.2}
+2025-09-08 23:55:08 | INFO | Rolling window size: 10
+2025-09-08 23:55:08 | INFO | Max stall temperature range: 0.2 F
+2025-09-08 23:55:13 | INFO | Processed JSON message: {'timestamp': '2025-09-09T04:55:13.446714', 'temperature': 115.6}
+2025-09-08 23:55:13 | INFO | Rolling window size: 10
+2025-09-08 23:55:13 | INFO | Max stall temperature range: 0.2 F
+2025-09-08 23:57:10 | INFO | Processed JSON message: {'timestamp': '2025-09-09T04:57:10.640154', 'temperature': 116.0}
+2025-09-08 23:57:10 | INFO | Rolling window size: 10
+2025-09-08 23:57:10 | INFO | Max stall temperature range: 0.2 F
+2025-09-08 23:57:15 | INFO | Processed JSON message: {'timestamp': '2025-09-09T04:57:15.651249', 'temperature': 116.4}
+2025-09-08 23:57:15 | INFO | Rolling window size: 10
+2025-09-08 23:57:15 | INFO | Max stall temperature range: 0.2 F
+2025-09-08 23:57:20 | INFO | Processed JSON message: {'timestamp': '2025-09-09T04:57:20.662808', 'temperature': 116.8}
+2025-09-08 23:57:20 | INFO | Rolling window size: 10
+2025-09-08 23:57:20 | INFO | Max stall temperature range: 0.2 F
+2025-09-09 00:02:18 | INFO | Processed JSON message: {'timestamp': '2025-09-09T05:02:18.090540', 'temperature': 117.2}
+2025-09-09 00:02:18 | INFO | Rolling window size: 10
+2025-09-09 00:02:18 | INFO | Max stall temperature range: 0.2 F
+2025-09-09 00:02:23 | INFO | Processed JSON message: {'timestamp': '2025-09-09T05:02:23.095920', 'temperature': 117.6}
+2025-09-09 00:02:23 | INFO | Rolling window size: 10
+2025-09-09 00:02:23 | INFO | Max stall temperature range: 0.2 F
+2025-09-09 00:02:28 | INFO | Processed JSON message: {'timestamp': '2025-09-09T05:02:28.101861', 'temperature': 118.0}
+2025-09-09 00:02:28 | INFO | Rolling window size: 10
+2025-09-09 00:02:28 | INFO | Max stall temperature range: 0.2 F
+2025-09-09 00:02:33 | INFO | Processed JSON message: {'timestamp': '2025-09-09T05:02:33.104518', 'temperature': 118.4}
+2025-09-09 00:02:33 | INFO | Rolling window size: 10
+2025-09-09 00:02:33 | INFO | Max stall temperature range: 0.2 F
+2025-09-09 00:02:38 | INFO | Processed JSON message: {'timestamp': '2025-09-09T05:02:38.110396', 'temperature': 118.8}
+2025-09-09 00:02:38 | INFO | Rolling window size: 10
+2025-09-09 00:02:38 | INFO | Max stall temperature range: 0.2 F
+2025-09-09 00:02:43 | INFO | Processed JSON message: {'timestamp': '2025-09-09T05:02:43.114113', 'temperature': 119.2}
+2025-09-09 00:02:43 | INFO | Rolling window size: 10
+2025-09-09 00:02:43 | INFO | Max stall temperature range: 0.2 F
+2025-09-09 00:02:48 | INFO | Processed JSON message: {'timestamp': '2025-09-09T05:02:48.122592', 'temperature': 119.6}
+2025-09-09 00:02:48 | INFO | Rolling window size: 10
+2025-09-09 00:02:48 | INFO | Max stall temperature range: 0.2 F
+2025-09-09 00:02:53 | INFO | Processed JSON message: {'timestamp': '2025-09-09T05:02:53.129810', 'temperature': 120.0}
+2025-09-09 00:02:53 | INFO | Rolling window size: 10
+2025-09-09 00:02:53 | INFO | Max stall temperature range: 0.2 F
+2025-09-09 00:02:58 | INFO | Processed JSON message: {'timestamp': '2025-09-09T05:02:58.138282', 'temperature': 120.4}
+2025-09-09 00:02:58 | INFO | Rolling window size: 10
+2025-09-09 00:02:58 | INFO | Max stall temperature range: 0.2 F
+2025-09-09 00:03:03 | INFO | Processed JSON message: {'timestamp': '2025-09-09T05:03:03.146494', 'temperature': 120.8}
+2025-09-09 00:03:03 | INFO | Rolling window size: 10
+2025-09-09 00:03:03 | INFO | Max stall temperature range: 0.2 F
+2025-09-09 00:03:08 | INFO | Processed JSON message: {'timestamp': '2025-09-09T05:03:08.155398', 'temperature': 121.2}
+2025-09-09 00:03:08 | INFO | Rolling window size: 10
+2025-09-09 00:03:08 | INFO | Max stall temperature range: 0.2 F
+2025-09-09 00:03:13 | INFO | Processed JSON message: {'timestamp': '2025-09-09T05:03:13.163264', 'temperature': 121.6}
+2025-09-09 00:03:13 | INFO | Rolling window size: 10
+2025-09-09 00:03:13 | INFO | Max stall temperature range: 0.2 F
+2025-09-09 00:03:18 | INFO | Processed JSON message: {'timestamp': '2025-09-09T05:03:18.171255', 'temperature': 122.0}
+2025-09-09 00:03:18 | INFO | Rolling window size: 10
+2025-09-09 00:03:18 | INFO | Max stall temperature range: 0.2 F
+2025-09-09 00:03:23 | INFO | Processed JSON message: {'timestamp': '2025-09-09T05:03:23.175950', 'temperature': 122.4}
+2025-09-09 00:03:23 | INFO | Rolling window size: 10
+2025-09-09 00:03:23 | INFO | Max stall temperature range: 0.2 F
+2025-09-09 00:03:28 | INFO | Processed JSON message: {'timestamp': '2025-09-09T05:03:28.179590', 'temperature': 122.8}
+2025-09-09 00:03:28 | INFO | Rolling window size: 10
+2025-09-09 00:03:28 | INFO | Max stall temperature range: 0.2 F
+2025-09-09 00:03:33 | INFO | Processed JSON message: {'timestamp': '2025-09-09T05:03:33.190898', 'temperature': 123.2}
+2025-09-09 00:03:33 | INFO | Rolling window size: 10
+2025-09-09 00:03:33 | INFO | Max stall temperature range: 0.2 F
+2025-09-09 00:03:38 | INFO | Processed JSON message: {'timestamp': '2025-09-09T05:03:38.196495', 'temperature': 123.6}
+2025-09-09 00:03:38 | INFO | Rolling window size: 10
+2025-09-09 00:03:38 | INFO | Max stall temperature range: 0.2 F
+2025-09-09 00:03:43 | INFO | Processed JSON message: {'timestamp': '2025-09-09T05:03:43.205005', 'temperature': 124.0}
+2025-09-09 00:03:43 | INFO | Rolling window size: 10
+2025-09-09 00:03:43 | INFO | Max stall temperature range: 0.2 F
+2025-09-09 00:03:48 | INFO | Processed JSON message: {'timestamp': '2025-09-09T05:03:48.212308', 'temperature': 124.4}
+2025-09-09 00:03:48 | INFO | Rolling window size: 10
+2025-09-09 00:03:48 | INFO | Max stall temperature range: 0.2 F
+2025-09-09 00:03:53 | INFO | Processed JSON message: {'timestamp': '2025-09-09T05:03:53.218220', 'temperature': 124.8}
+2025-09-09 00:03:53 | INFO | Rolling window size: 10
+2025-09-09 00:03:53 | INFO | Max stall temperature range: 0.2 F
+2025-09-09 00:03:58 | INFO | Processed JSON message: {'timestamp': '2025-09-09T05:03:58.225989', 'temperature': 125.2}
+2025-09-09 00:03:58 | INFO | Rolling window size: 10
+2025-09-09 00:03:58 | INFO | Max stall temperature range: 0.2 F
+2025-09-09 00:04:03 | INFO | Processed JSON message: {'timestamp': '2025-09-09T05:04:03.235170', 'temperature': 125.6}
+2025-09-09 00:04:03 | INFO | Rolling window size: 10
+2025-09-09 00:04:03 | INFO | Max stall temperature range: 0.2 F
+2025-09-09 00:04:08 | INFO | Processed JSON message: {'timestamp': '2025-09-09T05:04:08.244159', 'temperature': 126.0}
+2025-09-09 00:04:08 | INFO | Rolling window size: 10
+2025-09-09 00:04:08 | INFO | Max stall temperature range: 0.2 F
+2025-09-09 00:04:13 | INFO | Processed JSON message: {'timestamp': '2025-09-09T05:04:13.252110', 'temperature': 126.4}
+2025-09-09 00:04:13 | INFO | Rolling window size: 10
+2025-09-09 00:04:13 | INFO | Max stall temperature range: 0.2 F
+2025-09-09 00:04:18 | INFO | Processed JSON message: {'timestamp': '2025-09-09T05:04:18.256921', 'temperature': 126.8}
+2025-09-09 00:04:18 | INFO | Rolling window size: 10
+2025-09-09 00:04:18 | INFO | Max stall temperature range: 0.2 F
+2025-09-09 00:04:23 | INFO | Processed JSON message: {'timestamp': '2025-09-09T05:04:23.262122', 'temperature': 127.2}
+2025-09-09 00:04:23 | INFO | Rolling window size: 10
+2025-09-09 00:04:23 | INFO | Max stall temperature range: 0.2 F
+2025-09-09 00:04:28 | INFO | Processed JSON message: {'timestamp': '2025-09-09T05:04:28.271191', 'temperature': 127.6}
+2025-09-09 00:04:28 | INFO | Rolling window size: 10
+2025-09-09 00:04:28 | INFO | Max stall temperature range: 0.2 F
+2025-09-09 00:04:33 | INFO | Processed JSON message: {'timestamp': '2025-09-09T05:04:33.280429', 'temperature': 128.0}
+2025-09-09 00:04:33 | INFO | Rolling window size: 10
+2025-09-09 00:04:33 | INFO | Max stall temperature range: 0.2 F
+2025-09-09 00:04:38 | INFO | Processed JSON message: {'timestamp': '2025-09-09T05:04:38.287572', 'temperature': 128.4}
+2025-09-09 00:04:38 | INFO | Rolling window size: 10
+2025-09-09 00:04:38 | INFO | Max stall temperature range: 0.2 F
+2025-09-09 00:04:43 | INFO | Processed JSON message: {'timestamp': '2025-09-09T05:04:43.294107', 'temperature': 128.8}
+2025-09-09 00:04:43 | INFO | Rolling window size: 10
+2025-09-09 00:04:43 | INFO | Max stall temperature range: 0.2 F
+2025-09-09 00:04:48 | INFO | Processed JSON message: {'timestamp': '2025-09-09T05:04:48.300052', 'temperature': 129.2}
+2025-09-09 00:04:48 | INFO | Rolling window size: 10
+2025-09-09 00:04:48 | INFO | Max stall temperature range: 0.2 F
+2025-09-09 00:04:53 | INFO | Processed JSON message: {'timestamp': '2025-09-09T05:04:53.309562', 'temperature': 129.6}
+2025-09-09 00:04:53 | INFO | Rolling window size: 10
+2025-09-09 00:04:53 | INFO | Max stall temperature range: 0.2 F
+2025-09-09 00:04:58 | INFO | Processed JSON message: {'timestamp': '2025-09-09T05:04:58.315621', 'temperature': 130.0}
+2025-09-09 00:04:58 | INFO | Rolling window size: 10
+2025-09-09 00:04:58 | INFO | Max stall temperature range: 0.2 F
+2025-09-09 00:05:03 | INFO | Processed JSON message: {'timestamp': '2025-09-09T05:05:03.320462', 'temperature': 130.4}
+2025-09-09 00:05:03 | INFO | Rolling window size: 10
+2025-09-09 00:05:03 | INFO | Max stall temperature range: 0.2 F
+2025-09-09 00:05:08 | INFO | Processed JSON message: {'timestamp': '2025-09-09T05:05:08.328630', 'temperature': 130.8}
+2025-09-09 00:05:08 | INFO | Rolling window size: 10
+2025-09-09 00:05:08 | INFO | Max stall temperature range: 0.2 F
+2025-09-09 00:05:13 | INFO | Processed JSON message: {'timestamp': '2025-09-09T05:05:13.337180', 'temperature': 131.2}
+2025-09-09 00:05:13 | INFO | Rolling window size: 10
+2025-09-09 00:05:13 | INFO | Max stall temperature range: 0.2 F
+2025-09-09 00:05:18 | INFO | Processed JSON message: {'timestamp': '2025-09-09T05:05:18.344222', 'temperature': 131.6}
+2025-09-09 00:05:18 | INFO | Rolling window size: 10
+2025-09-09 00:05:18 | INFO | Max stall temperature range: 0.2 F
+2025-09-09 00:05:23 | INFO | Processed JSON message: {'timestamp': '2025-09-09T05:05:23.351847', 'temperature': 132.0}
+2025-09-09 00:05:23 | INFO | Rolling window size: 10
+2025-09-09 00:05:23 | INFO | Max stall temperature range: 0.2 F
+2025-09-09 00:05:28 | INFO | Processed JSON message: {'timestamp': '2025-09-09T05:05:28.360213', 'temperature': 132.4}
+2025-09-09 00:05:28 | INFO | Rolling window size: 10
+2025-09-09 00:05:28 | INFO | Max stall temperature range: 0.2 F
+2025-09-09 00:05:33 | INFO | Processed JSON message: {'timestamp': '2025-09-09T05:05:33.368608', 'temperature': 132.8}
+2025-09-09 00:05:33 | INFO | Rolling window size: 10
+2025-09-09 00:05:33 | INFO | Max stall temperature range: 0.2 F

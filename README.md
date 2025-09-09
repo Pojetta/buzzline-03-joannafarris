@@ -99,10 +99,10 @@ If you get execution policy error, run this first:
 Open a new terminal in VS Code (Terminal / New Terminal)
 
 ```bash
-python3 -m venv .venv
+python3.11 -m venv .venv
 source .venv/bin/activate
-python3 -m pip install --upgrade pip
-python3 -m pip install --upgrade -r requirements.txt
+python3.11 -m pip install --upgrade pip
+python3.11 -m pip install --upgrade -r requirements.txt
 ```
 
 ---
@@ -171,11 +171,10 @@ You will need to:
 What did we name the topic used with csv data?
 Hint: See the producer code and [.env](.env).
 
-Hint: Windows:
 
 ```shell
-.venv\Scripts\activate
-py -m producers.csv_producer_case
+source .venv/bin/activate
+python3.11 -m producers.csv_producer_case
 ```
 
 ## Task 6. Start a Kafka CSV Consumer
@@ -192,11 +191,9 @@ You will need to:
 What did we name the topic used with csv data?
 Hint: See the consumer code and [.env](.env).
 
-Hint: Windows:
-
 ```shell
-.venv\Scripts\activate
-py -m consumers.csv_consumer_case
+source .venv/bin/activate
+python3.11 -m consumers.csv_consumer_case
 ```
 
 ---
@@ -254,3 +251,5 @@ Managing Python virtual environments is a valuable skill.
 This project is licensed under the MIT License as an example project.
 You are encouraged to fork, copy, explore, and modify the code as you like.
 See the [LICENSE](LICENSE.txt) file for more.
+
+
