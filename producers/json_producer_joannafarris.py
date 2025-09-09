@@ -1,5 +1,5 @@
 """
-json_producer_case.py
+json_producer_joannafarris.py
 
 Stream JSON data to a Kafka topic.
 

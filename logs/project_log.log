@@ -1,311 +1,201 @@
-2025-09-09 00:38:16 | INFO | STALL DETECTED at 2025-09-09T05:38:16.554498: Temp stable at 142.0°F over last 10 readings.
-2025-09-09 00:40:48 | INFO | Processed JSON message: {'timestamp': '2025-09-09T05:40:48.497434', 'temperature': 142.2}
-2025-09-09 00:40:48 | INFO | Rolling window size: 10
-2025-09-09 00:40:48 | INFO | Max stall temperature range: 0.2 F
-2025-09-09 00:40:48 | INFO | STALL DETECTED at 2025-09-09T05:40:48.497434: Temp stable at 142.2°F over last 10 readings.
-2025-09-09 00:40:53 | INFO | Processed JSON message: {'timestamp': '2025-09-09T05:40:53.505269', 'temperature': 142.0}
-2025-09-09 00:40:53 | INFO | Rolling window size: 10
-2025-09-09 00:40:53 | INFO | Max stall temperature range: 0.2 F
-2025-09-09 00:40:53 | INFO | STALL DETECTED at 2025-09-09T05:40:53.505269: Temp stable at 142.0°F over last 10 readings.
-2025-09-09 00:41:03 | INFO | Processed JSON message: {'timestamp': '2025-09-09T05:41:03.886839', 'temperature': 142.2}
-2025-09-09 00:41:03 | INFO | Rolling window size: 10
-2025-09-09 00:41:03 | INFO | Max stall temperature range: 0.2 F
-2025-09-09 00:41:03 | INFO | STALL DETECTED at 2025-09-09T05:41:03.886839: Temp stable at 142.2°F over last 10 readings.
-2025-09-09 00:43:22 | INFO | Processed JSON message: {'timestamp': '2025-09-09T05:43:22.530857', 'temperature': 142.0}
-2025-09-09 00:43:22 | INFO | Rolling window size: 10
-2025-09-09 00:43:22 | INFO | Max stall temperature range: 0.2 F
-2025-09-09 00:43:22 | INFO | STALL DETECTED at 2025-09-09T05:43:22.530857: Temp stable at 142.0°F over last 10 readings.
-2025-09-09 00:43:27 | INFO | Processed JSON message: {'timestamp': '2025-09-09T05:43:27.542559', 'temperature': 142.2}
-2025-09-09 00:43:27 | INFO | Rolling window size: 10
-2025-09-09 00:43:27 | INFO | Max stall temperature range: 0.2 F
-2025-09-09 00:43:27 | INFO | STALL DETECTED at 2025-09-09T05:43:27.542559: Temp stable at 142.2°F over last 10 readings.
-2025-09-09 00:43:34 | INFO | Processed JSON message: {'timestamp': '2025-09-09T05:43:34.305715', 'temperature': 142.0}
-2025-09-09 00:43:34 | INFO | Rolling window size: 10
-2025-09-09 00:43:34 | INFO | Max stall temperature range: 0.2 F
-2025-09-09 00:43:34 | INFO | STALL DETECTED at 2025-09-09T05:43:34.305715: Temp stable at 142.0°F over last 10 readings.
-2025-09-09 00:46:14 | INFO | Processed JSON message: {'timestamp': '2025-09-09T05:46:14.320577', 'temperature': 142.2}
-2025-09-09 00:46:14 | INFO | Rolling window size: 10
-2025-09-09 00:46:14 | INFO | Max stall temperature range: 0.2 F
-2025-09-09 00:46:14 | INFO | STALL DETECTED at 2025-09-09T05:46:14.320577: Temp stable at 142.2°F over last 10 readings.
-2025-09-09 00:46:19 | INFO | Processed JSON message: {'timestamp': '2025-09-09T05:46:19.333716', 'temperature': 142.0}
-2025-09-09 00:46:19 | INFO | Rolling window size: 10
-2025-09-09 00:46:19 | INFO | Max stall temperature range: 0.2 F
-2025-09-09 00:46:19 | INFO | STALL DETECTED at 2025-09-09T05:46:19.333716: Temp stable at 142.0°F over last 10 readings.
-2025-09-09 00:47:09 | INFO | Processed JSON message: {'timestamp': '2025-09-09T05:47:09.266984', 'temperature': 142.2}
-2025-09-09 00:47:09 | INFO | Rolling window size: 10
-2025-09-09 00:47:09 | INFO | Max stall temperature range: 0.2 F
-2025-09-09 00:47:09 | INFO | STALL DETECTED at 2025-09-09T05:47:09.266984: Temp stable at 142.2°F over last 10 readings.
-2025-09-09 00:47:14 | INFO | Processed JSON message: {'timestamp': '2025-09-09T05:47:14.281271', 'temperature': 142.0}
-2025-09-09 00:47:14 | INFO | Rolling window size: 10
-2025-09-09 00:47:14 | INFO | Max stall temperature range: 0.2 F
-2025-09-09 00:47:14 | INFO | STALL DETECTED at 2025-09-09T05:47:14.281271: Temp stable at 142.0°F over last 10 readings.
-2025-09-09 00:48:20 | INFO | Processed JSON message: {'timestamp': '2025-09-09T05:48:20.827954', 'temperature': 142.2}
-2025-09-09 00:48:20 | INFO | Rolling window size: 10
-2025-09-09 00:48:20 | INFO | Max stall temperature range: 0.2 F
-2025-09-09 00:48:20 | INFO | STALL DETECTED at 2025-09-09T05:48:20.827954: Temp stable at 142.2°F over last 10 readings.
-2025-09-09 00:48:25 | INFO | Processed JSON message: {'timestamp': '2025-09-09T05:48:25.841442', 'temperature': 142.0}
-2025-09-09 00:48:25 | INFO | Rolling window size: 10
-2025-09-09 00:48:25 | INFO | Max stall temperature range: 0.2 F
-2025-09-09 00:48:25 | INFO | STALL DETECTED at 2025-09-09T05:48:25.841442: Temp stable at 142.0°F over last 10 readings.
-2025-09-09 00:49:18 | INFO | Processed JSON message: {'timestamp': '2025-09-09T05:49:18.160550', 'temperature': 142.2}
-2025-09-09 00:49:18 | INFO | Rolling window size: 10
-2025-09-09 00:49:18 | INFO | Max stall temperature range: 0.2 F
-2025-09-09 00:49:18 | INFO | STALL DETECTED at 2025-09-09T05:49:18.160550: Temp stable at 142.2°F over last 10 readings.
-2025-09-09 00:49:23 | INFO | Processed JSON message: {'timestamp': '2025-09-09T05:49:23.173226', 'temperature': 142.0}
-2025-09-09 00:49:23 | INFO | Rolling window size: 10
-2025-09-09 00:49:23 | INFO | Max stall temperature range: 0.2 F
-2025-09-09 00:49:23 | INFO | STALL DETECTED at 2025-09-09T05:49:23.173226: Temp stable at 142.0°F over last 10 readings.
-2025-09-09 00:49:28 | INFO | Processed JSON message: {'timestamp': '2025-09-09T05:49:28.186679', 'temperature': 142.2}
-2025-09-09 00:49:28 | INFO | Rolling window size: 10
-2025-09-09 00:49:28 | INFO | Max stall temperature range: 0.2 F
-2025-09-09 00:49:28 | INFO | STALL DETECTED at 2025-09-09T05:49:28.186679: Temp stable at 142.2°F over last 10 readings.
-2025-09-09 00:49:33 | INFO | Processed JSON message: {'timestamp': '2025-09-09T05:49:33.194463', 'temperature': 142.0}
-2025-09-09 00:49:33 | INFO | Rolling window size: 10
-2025-09-09 00:49:33 | INFO | Max stall temperature range: 0.2 F
-2025-09-09 00:49:33 | INFO | STALL DETECTED at 2025-09-09T05:49:33.194463: Temp stable at 142.0°F over last 10 readings.
-2025-09-09 00:49:38 | INFO | Processed JSON message: {'timestamp': '2025-09-09T05:49:38.206994', 'temperature': 142.2}
-2025-09-09 00:49:38 | INFO | Rolling window size: 10
-2025-09-09 00:49:38 | INFO | Max stall temperature range: 0.2 F
-2025-09-09 00:49:38 | INFO | STALL DETECTED at 2025-09-09T05:49:38.206994: Temp stable at 142.2°F over last 10 readings.
-2025-09-09 00:49:43 | INFO | Processed JSON message: {'timestamp': '2025-09-09T05:49:43.211620', 'temperature': 142.0}
-2025-09-09 00:49:43 | INFO | Rolling window size: 10
-2025-09-09 00:49:43 | INFO | Max stall temperature range: 0.2 F
-2025-09-09 00:49:43 | INFO | STALL DETECTED at 2025-09-09T05:49:43.211620: Temp stable at 142.0°F over last 10 readings.
-2025-09-09 00:49:48 | INFO | Processed JSON message: {'timestamp': '2025-09-09T05:49:48.219513', 'temperature': 142.2}
-2025-09-09 00:49:48 | INFO | Rolling window size: 10
-2025-09-09 00:49:48 | INFO | Max stall temperature range: 0.2 F
-2025-09-09 00:49:48 | INFO | STALL DETECTED at 2025-09-09T05:49:48.219513: Temp stable at 142.2°F over last 10 readings.
-2025-09-09 00:49:53 | INFO | Processed JSON message: {'timestamp': '2025-09-09T05:49:53.228515', 'temperature': 142.0}
-2025-09-09 00:49:53 | INFO | Rolling window size: 10
-2025-09-09 00:49:53 | INFO | Max stall temperature range: 0.2 F
-2025-09-09 00:49:53 | INFO | STALL DETECTED at 2025-09-09T05:49:53.228515: Temp stable at 142.0°F over last 10 readings.
-2025-09-09 00:49:58 | INFO | Processed JSON message: {'timestamp': '2025-09-09T05:49:58.237295', 'temperature': 142.2}
-2025-09-09 00:49:58 | INFO | Rolling window size: 10
-2025-09-09 00:49:58 | INFO | Max stall temperature range: 0.2 F
-2025-09-09 00:49:58 | INFO | STALL DETECTED at 2025-09-09T05:49:58.237295: Temp stable at 142.2°F over last 10 readings.
-2025-09-09 00:50:03 | INFO | Processed JSON message: {'timestamp': '2025-09-09T05:50:03.245722', 'temperature': 142.0}
-2025-09-09 00:50:03 | INFO | Rolling window size: 10
-2025-09-09 00:50:03 | INFO | Max stall temperature range: 0.2 F
-2025-09-09 00:50:03 | INFO | STALL DETECTED at 2025-09-09T05:50:03.245722: Temp stable at 142.0°F over last 10 readings.
-2025-09-09 00:50:08 | INFO | Processed JSON message: {'timestamp': '2025-09-09T05:50:08.253174', 'temperature': 142.2}
-2025-09-09 00:50:08 | INFO | Rolling window size: 10
-2025-09-09 00:50:08 | INFO | Max stall temperature range: 0.2 F
-2025-09-09 00:50:08 | INFO | STALL DETECTED at 2025-09-09T05:50:08.253174: Temp stable at 142.2°F over last 10 readings.
-2025-09-09 00:50:13 | INFO | Processed JSON message: {'timestamp': '2025-09-09T05:50:13.260555', 'temperature': 142.0}
-2025-09-09 00:50:13 | INFO | Rolling window size: 10
-2025-09-09 00:50:13 | INFO | Max stall temperature range: 0.2 F
-2025-09-09 00:50:13 | INFO | STALL DETECTED at 2025-09-09T05:50:13.260555: Temp stable at 142.0°F over last 10 readings.
-2025-09-09 00:50:18 | INFO | Processed JSON message: {'timestamp': '2025-09-09T05:50:18.268138', 'temperature': 142.2}
-2025-09-09 00:50:18 | INFO | Rolling window size: 10
-2025-09-09 00:50:18 | INFO | Max stall temperature range: 0.2 F
-2025-09-09 00:50:18 | INFO | STALL DETECTED at 2025-09-09T05:50:18.268138: Temp stable at 142.2°F over last 10 readings.
-2025-09-09 00:50:23 | INFO | Processed JSON message: {'timestamp': '2025-09-09T05:50:23.274914', 'temperature': 142.0}
-2025-09-09 00:50:23 | INFO | Rolling window size: 10
-2025-09-09 00:50:23 | INFO | Max stall temperature range: 0.2 F
-2025-09-09 00:50:23 | INFO | STALL DETECTED at 2025-09-09T05:50:23.274914: Temp stable at 142.0°F over last 10 readings.
-2025-09-09 00:50:28 | INFO | Processed JSON message: {'timestamp': '2025-09-09T05:50:28.284216', 'temperature': 142.2}
-2025-09-09 00:50:28 | INFO | Rolling window size: 10
-2025-09-09 00:50:28 | INFO | Max stall temperature range: 0.2 F
-2025-09-09 00:50:28 | INFO | STALL DETECTED at 2025-09-09T05:50:28.284216: Temp stable at 142.2°F over last 10 readings.
-2025-09-09 00:50:33 | INFO | Processed JSON message: {'timestamp': '2025-09-09T05:50:33.289209', 'temperature': 142.0}
-2025-09-09 00:50:33 | INFO | Rolling window size: 10
-2025-09-09 00:50:33 | INFO | Max stall temperature range: 0.2 F
-2025-09-09 00:50:33 | INFO | STALL DETECTED at 2025-09-09T05:50:33.289209: Temp stable at 142.0°F over last 10 readings.
-2025-09-09 00:50:38 | INFO | Processed JSON message: {'timestamp': '2025-09-09T05:50:38.296276', 'temperature': 142.2}
-2025-09-09 00:50:38 | INFO | Rolling window size: 10
-2025-09-09 00:50:38 | INFO | Max stall temperature range: 0.2 F
-2025-09-09 00:50:38 | INFO | STALL DETECTED at 2025-09-09T05:50:38.296276: Temp stable at 142.2°F over last 10 readings.
-2025-09-09 00:50:43 | INFO | Processed JSON message: {'timestamp': '2025-09-09T05:50:43.302434', 'temperature': 142.0}
-2025-09-09 00:50:43 | INFO | Rolling window size: 10
-2025-09-09 00:50:43 | INFO | Max stall temperature range: 0.2 F
-2025-09-09 00:50:43 | INFO | STALL DETECTED at 2025-09-09T05:50:43.302434: Temp stable at 142.0°F over last 10 readings.
-2025-09-09 00:50:48 | INFO | Processed JSON message: {'timestamp': '2025-09-09T05:50:48.307482', 'temperature': 142.2}
-2025-09-09 00:50:48 | INFO | Rolling window size: 10
-2025-09-09 00:50:48 | INFO | Max stall temperature range: 0.2 F
-2025-09-09 00:50:48 | INFO | STALL DETECTED at 2025-09-09T05:50:48.307482: Temp stable at 142.2°F over last 10 readings.
-2025-09-09 00:50:53 | INFO | Processed JSON message: {'timestamp': '2025-09-09T05:50:53.316759', 'temperature': 142.0}
-2025-09-09 00:50:53 | INFO | Rolling window size: 10
-2025-09-09 00:50:53 | INFO | Max stall temperature range: 0.2 F
-2025-09-09 00:50:53 | INFO | STALL DETECTED at 2025-09-09T05:50:53.316759: Temp stable at 142.0°F over last 10 readings.
-2025-09-09 00:50:58 | INFO | Processed JSON message: {'timestamp': '2025-09-09T05:50:58.327573', 'temperature': 70.4}
-2025-09-09 00:50:58 | INFO | Rolling window size: 10
-2025-09-09 00:50:58 | INFO | Max stall temperature range: 0.2 F
-2025-09-09 00:51:03 | INFO | Processed JSON message: {'timestamp': '2025-09-09T05:51:03.329958', 'temperature': 70.8}
-2025-09-09 00:51:03 | INFO | Rolling window size: 10
-2025-09-09 00:51:03 | INFO | Max stall temperature range: 0.2 F
-2025-09-09 00:51:08 | INFO | Processed JSON message: {'timestamp': '2025-09-09T05:51:08.338742', 'temperature': 71.2}
-2025-09-09 00:51:08 | INFO | Rolling window size: 10
-2025-09-09 00:51:08 | INFO | Max stall temperature range: 0.2 F
-2025-09-09 00:51:13 | INFO | Processed JSON message: {'timestamp': '2025-09-09T05:51:13.346484', 'temperature': 71.6}
-2025-09-09 00:51:13 | INFO | Rolling window size: 10
-2025-09-09 00:51:13 | INFO | Max stall temperature range: 0.2 F
-2025-09-09 00:51:18 | INFO | Processed JSON message: {'timestamp': '2025-09-09T05:51:18.354210', 'temperature': 72.0}
-2025-09-09 00:51:18 | INFO | Rolling window size: 10
-2025-09-09 00:51:18 | INFO | Max stall temperature range: 0.2 F
-2025-09-09 00:51:23 | INFO | Processed JSON message: {'timestamp': '2025-09-09T05:51:23.361003', 'temperature': 72.4}
-2025-09-09 00:51:23 | INFO | Rolling window size: 10
-2025-09-09 00:51:23 | INFO | Max stall temperature range: 0.2 F
-2025-09-09 00:51:28 | INFO | Processed JSON message: {'timestamp': '2025-09-09T05:51:28.369197', 'temperature': 72.8}
-2025-09-09 00:51:28 | INFO | Rolling window size: 10
-2025-09-09 00:51:28 | INFO | Max stall temperature range: 0.2 F
-2025-09-09 00:51:33 | INFO | Processed JSON message: {'timestamp': '2025-09-09T05:51:33.373825', 'temperature': 73.2}
-2025-09-09 00:51:33 | INFO | Rolling window size: 10
-2025-09-09 00:51:33 | INFO | Max stall temperature range: 0.2 F
-2025-09-09 00:51:38 | INFO | Processed JSON message: {'timestamp': '2025-09-09T05:51:38.381951', 'temperature': 73.6}
-2025-09-09 00:51:38 | INFO | Rolling window size: 10
-2025-09-09 00:51:38 | INFO | Max stall temperature range: 0.2 F
-2025-09-09 00:51:43 | INFO | Processed JSON message: {'timestamp': '2025-09-09T05:51:43.386076', 'temperature': 74.0}
-2025-09-09 00:51:43 | INFO | Rolling window size: 10
-2025-09-09 00:51:43 | INFO | Max stall temperature range: 0.2 F
-2025-09-09 00:51:48 | INFO | Processed JSON message: {'timestamp': '2025-09-09T05:51:48.392545', 'temperature': 74.4}
-2025-09-09 00:51:48 | INFO | Rolling window size: 10
-2025-09-09 00:51:48 | INFO | Max stall temperature range: 0.2 F
-2025-09-09 00:51:53 | INFO | Processed JSON message: {'timestamp': '2025-09-09T05:51:53.397264', 'temperature': 74.8}
-2025-09-09 00:51:53 | INFO | Rolling window size: 10
-2025-09-09 00:51:53 | INFO | Max stall temperature range: 0.2 F
-2025-09-09 00:51:58 | INFO | Processed JSON message: {'timestamp': '2025-09-09T05:51:58.405548', 'temperature': 75.2}
-2025-09-09 00:51:58 | INFO | Rolling window size: 10
-2025-09-09 00:51:58 | INFO | Max stall temperature range: 0.2 F
-2025-09-09 00:52:03 | INFO | Processed JSON message: {'timestamp': '2025-09-09T05:52:03.414022', 'temperature': 75.6}
-2025-09-09 00:52:03 | INFO | Rolling window size: 10
-2025-09-09 00:52:03 | INFO | Max stall temperature range: 0.2 F
-2025-09-09 00:52:08 | INFO | Processed JSON message: {'timestamp': '2025-09-09T05:52:08.418447', 'temperature': 76.0}
-2025-09-09 00:52:08 | INFO | Rolling window size: 10
-2025-09-09 00:52:08 | INFO | Max stall temperature range: 0.2 F
-2025-09-09 00:52:13 | INFO | Processed JSON message: {'timestamp': '2025-09-09T05:52:13.424332', 'temperature': 76.4}
-2025-09-09 00:52:13 | INFO | Rolling window size: 10
-2025-09-09 00:52:13 | INFO | Max stall temperature range: 0.2 F
-2025-09-09 00:52:18 | INFO | Processed JSON message: {'timestamp': '2025-09-09T05:52:18.432265', 'temperature': 76.8}
-2025-09-09 00:52:18 | INFO | Rolling window size: 10
-2025-09-09 00:52:18 | INFO | Max stall temperature range: 0.2 F
-2025-09-09 00:52:23 | INFO | Processed JSON message: {'timestamp': '2025-09-09T05:52:23.438255', 'temperature': 77.2}
-2025-09-09 00:52:23 | INFO | Rolling window size: 10
-2025-09-09 00:52:23 | INFO | Max stall temperature range: 0.2 F
-2025-09-09 00:52:28 | INFO | Processed JSON message: {'timestamp': '2025-09-09T05:52:28.445444', 'temperature': 77.6}
-2025-09-09 00:52:28 | INFO | Rolling window size: 10
-2025-09-09 00:52:28 | INFO | Max stall temperature range: 0.2 F
-2025-09-09 00:52:33 | INFO | Processed JSON message: {'timestamp': '2025-09-09T05:52:33.450563', 'temperature': 78.0}
-2025-09-09 00:52:33 | INFO | Rolling window size: 10
-2025-09-09 00:52:33 | INFO | Max stall temperature range: 0.2 F
-2025-09-09 00:52:38 | INFO | Processed JSON message: {'timestamp': '2025-09-09T05:52:38.457068', 'temperature': 78.4}
-2025-09-09 00:52:38 | INFO | Rolling window size: 10
-2025-09-09 00:52:38 | INFO | Max stall temperature range: 0.2 F
-2025-09-09 00:52:43 | INFO | Processed JSON message: {'timestamp': '2025-09-09T05:52:43.465438', 'temperature': 78.8}
-2025-09-09 00:52:43 | INFO | Rolling window size: 10
-2025-09-09 00:52:43 | INFO | Max stall temperature range: 0.2 F
-2025-09-09 00:52:48 | INFO | Processed JSON message: {'timestamp': '2025-09-09T05:52:48.474159', 'temperature': 79.2}
-2025-09-09 00:52:48 | INFO | Rolling window size: 10
-2025-09-09 00:52:48 | INFO | Max stall temperature range: 0.2 F
-2025-09-09 00:52:53 | INFO | Processed JSON message: {'timestamp': '2025-09-09T05:52:53.480988', 'temperature': 79.6}
-2025-09-09 00:52:53 | INFO | Rolling window size: 10
-2025-09-09 00:52:53 | INFO | Max stall temperature range: 0.2 F
-2025-09-09 00:52:58 | INFO | Processed JSON message: {'timestamp': '2025-09-09T05:52:58.489411', 'temperature': 80.0}
-2025-09-09 00:52:58 | INFO | Rolling window size: 10
-2025-09-09 00:52:58 | INFO | Max stall temperature range: 0.2 F
-2025-09-09 00:53:03 | INFO | Processed JSON message: {'timestamp': '2025-09-09T05:53:03.497844', 'temperature': 80.4}
-2025-09-09 00:53:03 | INFO | Rolling window size: 10
-2025-09-09 00:53:03 | INFO | Max stall temperature range: 0.2 F
-2025-09-09 00:53:08 | INFO | Processed JSON message: {'timestamp': '2025-09-09T05:53:08.504514', 'temperature': 80.8}
-2025-09-09 00:53:08 | INFO | Rolling window size: 10
-2025-09-09 00:53:08 | INFO | Max stall temperature range: 0.2 F
-2025-09-09 00:53:13 | INFO | Processed JSON message: {'timestamp': '2025-09-09T05:53:13.510865', 'temperature': 81.2}
-2025-09-09 00:53:13 | INFO | Rolling window size: 10
-2025-09-09 00:53:13 | INFO | Max stall temperature range: 0.2 F
-2025-09-09 00:53:18 | INFO | Processed JSON message: {'timestamp': '2025-09-09T05:53:18.519809', 'temperature': 81.6}
-2025-09-09 00:53:18 | INFO | Rolling window size: 10
-2025-09-09 00:53:18 | INFO | Max stall temperature range: 0.2 F
-2025-09-09 00:53:23 | INFO | Processed JSON message: {'timestamp': '2025-09-09T05:53:23.528066', 'temperature': 82.0}
-2025-09-09 00:53:23 | INFO | Rolling window size: 10
-2025-09-09 00:53:23 | INFO | Max stall temperature range: 0.2 F
-2025-09-09 00:53:28 | INFO | Processed JSON message: {'timestamp': '2025-09-09T05:53:28.533904', 'temperature': 82.4}
-2025-09-09 00:53:28 | INFO | Rolling window size: 10
-2025-09-09 00:53:28 | INFO | Max stall temperature range: 0.2 F
-2025-09-09 00:53:33 | INFO | Processed JSON message: {'timestamp': '2025-09-09T05:53:33.540471', 'temperature': 82.8}
-2025-09-09 00:53:33 | INFO | Rolling window size: 10
-2025-09-09 00:53:33 | INFO | Max stall temperature range: 0.2 F
-2025-09-09 00:53:38 | INFO | Processed JSON message: {'timestamp': '2025-09-09T05:53:38.548786', 'temperature': 83.2}
-2025-09-09 00:53:38 | INFO | Rolling window size: 10
-2025-09-09 00:53:38 | INFO | Max stall temperature range: 0.2 F
-2025-09-09 00:53:43 | INFO | Processed JSON message: {'timestamp': '2025-09-09T05:53:43.558388', 'temperature': 83.6}
-2025-09-09 00:53:43 | INFO | Rolling window size: 10
-2025-09-09 00:53:43 | INFO | Max stall temperature range: 0.2 F
-2025-09-09 00:53:48 | INFO | Processed JSON message: {'timestamp': '2025-09-09T05:53:48.562586', 'temperature': 84.0}
-2025-09-09 00:53:48 | INFO | Rolling window size: 10
-2025-09-09 00:53:48 | INFO | Max stall temperature range: 0.2 F
-2025-09-09 00:53:53 | INFO | Processed JSON message: {'timestamp': '2025-09-09T05:53:53.567943', 'temperature': 84.4}
-2025-09-09 00:53:53 | INFO | Rolling window size: 10
-2025-09-09 00:53:53 | INFO | Max stall temperature range: 0.2 F
-2025-09-09 00:53:58 | INFO | Processed JSON message: {'timestamp': '2025-09-09T05:53:58.576099', 'temperature': 84.8}
-2025-09-09 00:53:58 | INFO | Rolling window size: 10
-2025-09-09 00:53:58 | INFO | Max stall temperature range: 0.2 F
-2025-09-09 00:54:03 | INFO | Processed JSON message: {'timestamp': '2025-09-09T05:54:03.583287', 'temperature': 85.2}
-2025-09-09 00:54:03 | INFO | Rolling window size: 10
-2025-09-09 00:54:03 | INFO | Max stall temperature range: 0.2 F
-2025-09-09 00:54:08 | INFO | Processed JSON message: {'timestamp': '2025-09-09T05:54:08.592082', 'temperature': 85.6}
-2025-09-09 00:54:08 | INFO | Rolling window size: 10
-2025-09-09 00:54:08 | INFO | Max stall temperature range: 0.2 F
-2025-09-09 00:54:13 | INFO | Processed JSON message: {'timestamp': '2025-09-09T05:54:13.599591', 'temperature': 86.0}
-2025-09-09 00:54:13 | INFO | Rolling window size: 10
-2025-09-09 00:54:13 | INFO | Max stall temperature range: 0.2 F
-2025-09-09 00:54:18 | INFO | Processed JSON message: {'timestamp': '2025-09-09T05:54:18.607736', 'temperature': 86.4}
-2025-09-09 00:54:18 | INFO | Rolling window size: 10
-2025-09-09 00:54:18 | INFO | Max stall temperature range: 0.2 F
-2025-09-09 00:54:23 | INFO | Processed JSON message: {'timestamp': '2025-09-09T05:54:23.617097', 'temperature': 86.8}
-2025-09-09 00:54:23 | INFO | Rolling window size: 10
-2025-09-09 00:54:23 | INFO | Max stall temperature range: 0.2 F
-2025-09-09 00:54:28 | INFO | Processed JSON message: {'timestamp': '2025-09-09T05:54:28.625622', 'temperature': 87.2}
-2025-09-09 00:54:28 | INFO | Rolling window size: 10
-2025-09-09 00:54:28 | INFO | Max stall temperature range: 0.2 F
-2025-09-09 00:54:33 | INFO | Processed JSON message: {'timestamp': '2025-09-09T05:54:33.633149', 'temperature': 87.6}
-2025-09-09 00:54:33 | INFO | Rolling window size: 10
-2025-09-09 00:54:33 | INFO | Max stall temperature range: 0.2 F
-2025-09-09 00:54:38 | INFO | Processed JSON message: {'timestamp': '2025-09-09T05:54:38.640905', 'temperature': 88.0}
-2025-09-09 00:54:38 | INFO | Rolling window size: 10
-2025-09-09 00:54:38 | INFO | Max stall temperature range: 0.2 F
-2025-09-09 00:54:43 | INFO | Processed JSON message: {'timestamp': '2025-09-09T05:54:43.649482', 'temperature': 88.4}
-2025-09-09 00:54:43 | INFO | Rolling window size: 10
-2025-09-09 00:54:43 | INFO | Max stall temperature range: 0.2 F
-2025-09-09 00:54:48 | INFO | Processed JSON message: {'timestamp': '2025-09-09T05:54:48.658047', 'temperature': 88.8}
-2025-09-09 00:54:48 | INFO | Rolling window size: 10
-2025-09-09 00:54:48 | INFO | Max stall temperature range: 0.2 F
-2025-09-09 00:54:53 | INFO | Processed JSON message: {'timestamp': '2025-09-09T05:54:53.666439', 'temperature': 89.2}
-2025-09-09 00:54:53 | INFO | Rolling window size: 10
-2025-09-09 00:54:53 | INFO | Max stall temperature range: 0.2 F
-2025-09-09 00:54:58 | INFO | Processed JSON message: {'timestamp': '2025-09-09T05:54:58.670019', 'temperature': 89.6}
-2025-09-09 00:54:58 | INFO | Rolling window size: 10
-2025-09-09 00:54:58 | INFO | Max stall temperature range: 0.2 F
-2025-09-09 00:55:03 | INFO | Processed JSON message: {'timestamp': '2025-09-09T05:55:03.678368', 'temperature': 90.0}
-2025-09-09 00:55:03 | INFO | Rolling window size: 10
-2025-09-09 00:55:03 | INFO | Max stall temperature range: 0.2 F
-2025-09-09 00:55:08 | INFO | Processed JSON message: {'timestamp': '2025-09-09T05:55:08.686835', 'temperature': 90.4}
-2025-09-09 00:55:08 | INFO | Rolling window size: 10
-2025-09-09 00:55:08 | INFO | Max stall temperature range: 0.2 F
-2025-09-09 00:55:13 | INFO | Processed JSON message: {'timestamp': '2025-09-09T05:55:13.693528', 'temperature': 90.8}
-2025-09-09 00:55:13 | INFO | Rolling window size: 10
-2025-09-09 00:55:13 | INFO | Max stall temperature range: 0.2 F
-2025-09-09 00:55:18 | INFO | Processed JSON message: {'timestamp': '2025-09-09T05:55:18.701374', 'temperature': 91.2}
-2025-09-09 00:55:18 | INFO | Rolling window size: 10
-2025-09-09 00:55:18 | INFO | Max stall temperature range: 0.2 F
-2025-09-09 00:55:23 | INFO | Processed JSON message: {'timestamp': '2025-09-09T05:55:23.710059', 'temperature': 91.6}
-2025-09-09 00:55:23 | INFO | Rolling window size: 10
-2025-09-09 00:55:23 | INFO | Max stall temperature range: 0.2 F
-2025-09-09 00:55:28 | INFO | Processed JSON message: {'timestamp': '2025-09-09T05:55:28.715609', 'temperature': 92.0}
-2025-09-09 00:55:28 | INFO | Rolling window size: 10
-2025-09-09 00:55:28 | INFO | Max stall temperature range: 0.2 F
-2025-09-09 00:55:33 | INFO | Processed JSON message: {'timestamp': '2025-09-09T05:55:33.722549', 'temperature': 92.4}
-2025-09-09 00:55:33 | INFO | Rolling window size: 10
-2025-09-09 00:55:33 | INFO | Max stall temperature range: 0.2 F
-2025-09-09 00:55:38 | INFO | Processed JSON message: {'timestamp': '2025-09-09T05:55:38.731147', 'temperature': 92.8}
-2025-09-09 00:55:38 | INFO | Rolling window size: 10
-2025-09-09 00:55:38 | INFO | Max stall temperature range: 0.2 F
-2025-09-09 00:55:43 | INFO | Processed JSON message: {'timestamp': '2025-09-09T05:55:43.734505', 'temperature': 93.2}
-2025-09-09 00:55:43 | INFO | Rolling window size: 10
-2025-09-09 00:55:43 | INFO | Max stall temperature range: 0.2 F
-2025-09-09 00:55:48 | INFO | Processed JSON message: {'timestamp': '2025-09-09T05:55:48.742522', 'temperature': 93.6}
-2025-09-09 00:55:48 | INFO | Rolling window size: 10
-2025-09-09 00:55:48 | INFO | Max stall temperature range: 0.2 F
-2025-09-09 00:55:53 | INFO | Processed JSON message: {'timestamp': '2025-09-09T05:55:53.749423', 'temperature': 94.0}
-2025-09-09 00:55:53 | INFO | Rolling window size: 10
-2025-09-09 00:55:53 | INFO | Max stall temperature range: 0.2 F
-2025-09-09 00:55:55 | WARNING | Consumer interrupted by user.
-2025-09-09 00:55:55 | INFO | Kafka consumer for topic 'smoker_csv' closed.
+2025-09-09 00:59:24 | INFO | Sent message to topic 'buzzline_json': {'message': 'JSON makes life easier.', 'author': 'Alice', 'seq': 10, 'ts': '2025-09-09T05:59:24+00:00', 'source': 'json_producer_USER'}
+2025-09-09 00:59:25 | INFO | Sent message to topic 'buzzline_json': {'message': 'Data engineering is my passion.', 'author': 'Diana', 'seq': 11, 'ts': '2025-09-09T05:59:25+00:00', 'source': 'json_producer_USER'}
+2025-09-09 00:59:26 | INFO | Sent message to topic 'buzzline_json': {'message': 'JSON makes life easier.', 'author': 'Diana', 'seq': 12, 'ts': '2025-09-09T05:59:26+00:00', 'source': 'json_producer_USER'}
+2025-09-09 00:59:27 | INFO | Sent message to topic 'buzzline_json': {'message': 'Kafka is awesome.', 'author': 'Charlie', 'seq': 13, 'ts': '2025-09-09T05:59:27+00:00', 'source': 'json_producer_USER'}
+2025-09-09 00:59:28 | INFO | Sent message to topic 'buzzline_json': {'message': 'JSON makes life easier.', 'author': 'Bob', 'seq': 14, 'ts': '2025-09-09T05:59:28+00:00', 'source': 'json_producer_USER'}
+2025-09-09 00:59:29 | INFO | Sent message to topic 'buzzline_json': {'message': 'I love Python!', 'author': 'Bob', 'seq': 15, 'ts': '2025-09-09T05:59:29+00:00', 'source': 'json_producer_USER'}
+2025-09-09 00:59:30 | INFO | Sent message to topic 'buzzline_json': {'message': 'This is a buzz message.', 'author': 'Eve', 'seq': 16, 'ts': '2025-09-09T05:59:30+00:00', 'source': 'json_producer_USER'}
+2025-09-09 00:59:31 | INFO | Sent message to topic 'buzzline_json': {'message': 'I love Python!', 'author': 'Eve', 'seq': 17, 'ts': '2025-09-09T05:59:31+00:00', 'source': 'json_producer_USER'}
+2025-09-09 00:59:32 | INFO | Sent message to topic 'buzzline_json': {'message': 'Buzz messages for everyone.', 'author': 'Alice', 'seq': 18, 'ts': '2025-09-09T05:59:32+00:00', 'source': 'json_producer_USER'}
+2025-09-09 00:59:33 | INFO | Sent message to topic 'buzzline_json': {'message': 'This is a buzz message.', 'author': 'Alice', 'seq': 19, 'ts': '2025-09-09T05:59:33+00:00', 'source': 'json_producer_USER'}
+2025-09-09 00:59:34 | INFO | Sent message to topic 'buzzline_json': {'message': 'Data engineering is my passion.', 'author': 'Diana', 'seq': 20, 'ts': '2025-09-09T05:59:34+00:00', 'source': 'json_producer_USER'}
+2025-09-09 00:59:35 | INFO | Sent message to topic 'buzzline_json': {'message': 'I love Python!', 'author': 'Eve', 'seq': 21, 'ts': '2025-09-09T05:59:35+00:00', 'source': 'json_producer_USER'}
+2025-09-09 00:59:36 | INFO | Sent message to topic 'buzzline_json': {'message': 'JSON makes life easier.', 'author': 'Charlie', 'seq': 22, 'ts': '2025-09-09T05:59:36+00:00', 'source': 'json_producer_USER'}
+2025-09-09 00:59:37 | INFO | Sent message to topic 'buzzline_json': {'message': 'Have a great day!', 'author': 'Bob', 'seq': 23, 'ts': '2025-09-09T05:59:37+00:00', 'source': 'json_producer_USER'}
+2025-09-09 00:59:38 | INFO | Sent message to topic 'buzzline_json': {'message': 'Data engineering is my passion.', 'author': 'Alice', 'seq': 24, 'ts': '2025-09-09T05:59:38+00:00', 'source': 'json_producer_USER'}
+2025-09-09 00:59:39 | INFO | Sent message to topic 'buzzline_json': {'message': 'Kafka is awesome.', 'author': 'Diana', 'seq': 25, 'ts': '2025-09-09T05:59:39+00:00', 'source': 'json_producer_USER'}
+2025-09-09 00:59:40 | INFO | Sent message to topic 'buzzline_json': {'message': 'Kafka is awesome.', 'author': 'Diana', 'seq': 26, 'ts': '2025-09-09T05:59:40+00:00', 'source': 'json_producer_USER'}
+2025-09-09 00:59:41 | INFO | Sent message to topic 'buzzline_json': {'message': 'Hello, Kafka world!', 'author': 'Bob', 'seq': 27, 'ts': '2025-09-09T05:59:41+00:00', 'source': 'json_producer_USER'}
+2025-09-09 00:59:42 | INFO | Sent message to topic 'buzzline_json': {'message': 'Distributed systems are fascinating.', 'author': 'Diana', 'seq': 28, 'ts': '2025-09-09T05:59:42+00:00', 'source': 'json_producer_USER'}
+2025-09-09 00:59:43 | INFO | Sent message to topic 'buzzline_json': {'message': 'I love Python!', 'author': 'Diana', 'seq': 29, 'ts': '2025-09-09T05:59:43+00:00', 'source': 'json_producer_USER'}
+2025-09-09 00:59:44 | INFO | Sent message to topic 'buzzline_json': {'message': 'Have a great day!', 'author': 'Alice', 'seq': 30, 'ts': '2025-09-09T05:59:44+00:00', 'source': 'json_producer_USER'}
+2025-09-09 00:59:45 | INFO | Sent message to topic 'buzzline_json': {'message': 'Hello, Kafka world!', 'author': 'Charlie', 'seq': 31, 'ts': '2025-09-09T05:59:45+00:00', 'source': 'json_producer_USER'}
+2025-09-09 00:59:46 | INFO | Sent message to topic 'buzzline_json': {'message': 'JSON makes life easier.', 'author': 'Diana', 'seq': 32, 'ts': '2025-09-09T05:59:46+00:00', 'source': 'json_producer_USER'}
+2025-09-09 00:59:47 | INFO | Sent message to topic 'buzzline_json': {'message': 'I love Python!', 'author': 'Bob', 'seq': 33, 'ts': '2025-09-09T05:59:47+00:00', 'source': 'json_producer_USER'}
+2025-09-09 00:59:48 | INFO | Sent message to topic 'buzzline_json': {'message': 'Have a great day!', 'author': 'Diana', 'seq': 34, 'ts': '2025-09-09T05:59:48+00:00', 'source': 'json_producer_USER'}
+2025-09-09 00:59:49 | INFO | Sent message to topic 'buzzline_json': {'message': 'Hello, Kafka world!', 'author': 'Alice', 'seq': 35, 'ts': '2025-09-09T05:59:49+00:00', 'source': 'json_producer_USER'}
+2025-09-09 00:59:50 | INFO | Sent message to topic 'buzzline_json': {'message': 'JSON makes life easier.', 'author': 'Alice', 'seq': 36, 'ts': '2025-09-09T05:59:50+00:00', 'source': 'json_producer_USER'}
+2025-09-09 00:59:51 | INFO | Sent message to topic 'buzzline_json': {'message': 'Buzz messages for everyone.', 'author': 'Charlie', 'seq': 37, 'ts': '2025-09-09T05:59:51+00:00', 'source': 'json_producer_USER'}
+2025-09-09 00:59:52 | INFO | Sent message to topic 'buzzline_json': {'message': 'Buzz messages for everyone.', 'author': 'Bob', 'seq': 38, 'ts': '2025-09-09T05:59:52+00:00', 'source': 'json_producer_USER'}
+2025-09-09 00:59:53 | INFO | Sent message to topic 'buzzline_json': {'message': 'Streaming data is fun.', 'author': 'Diana', 'seq': 39, 'ts': '2025-09-09T05:59:53+00:00', 'source': 'json_producer_USER'}
+2025-09-09 00:59:54 | INFO | Sent message to topic 'buzzline_json': {'message': 'Have a great day!', 'author': 'Diana', 'seq': 40, 'ts': '2025-09-09T05:59:54+00:00', 'source': 'json_producer_USER'}
+2025-09-09 00:59:55 | INFO | Sent message to topic 'buzzline_json': {'message': 'I love Python!', 'author': 'Alice', 'seq': 41, 'ts': '2025-09-09T05:59:55+00:00', 'source': 'json_producer_USER'}
+2025-09-09 00:59:56 | INFO | Sent message to topic 'buzzline_json': {'message': 'Streaming data is fun.', 'author': 'Charlie', 'seq': 42, 'ts': '2025-09-09T05:59:56+00:00', 'source': 'json_producer_USER'}
+2025-09-09 00:59:57 | INFO | Sent message to topic 'buzzline_json': {'message': 'Kafka is awesome.', 'author': 'Alice', 'seq': 43, 'ts': '2025-09-09T05:59:57+00:00', 'source': 'json_producer_USER'}
+2025-09-09 00:59:58 | INFO | Sent message to topic 'buzzline_json': {'message': 'Kafka is awesome.', 'author': 'Diana', 'seq': 44, 'ts': '2025-09-09T05:59:58+00:00', 'source': 'json_producer_USER'}
+2025-09-09 00:59:59 | INFO | Sent message to topic 'buzzline_json': {'message': 'Kafka is awesome.', 'author': 'Alice', 'seq': 45, 'ts': '2025-09-09T05:59:59+00:00', 'source': 'json_producer_USER'}
+2025-09-09 01:00:00 | INFO | Sent message to topic 'buzzline_json': {'message': 'JSON makes life easier.', 'author': 'Bob', 'seq': 46, 'ts': '2025-09-09T06:00:00+00:00', 'source': 'json_producer_USER'}
+2025-09-09 01:00:01 | INFO | Sent message to topic 'buzzline_json': {'message': 'This is a buzz message.', 'author': 'Bob', 'seq': 47, 'ts': '2025-09-09T06:00:01+00:00', 'source': 'json_producer_USER'}
+2025-09-09 01:00:02 | INFO | Sent message to topic 'buzzline_json': {'message': 'Streaming data is fun.', 'author': 'Diana', 'seq': 48, 'ts': '2025-09-09T06:00:02+00:00', 'source': 'json_producer_USER'}
+2025-09-09 01:00:03 | INFO | Sent message to topic 'buzzline_json': {'message': 'Have a great day!', 'author': 'Bob', 'seq': 49, 'ts': '2025-09-09T06:00:03+00:00', 'source': 'json_producer_USER'}
+2025-09-09 01:00:04 | INFO | Sent message to topic 'buzzline_json': {'message': 'This is a buzz message.', 'author': 'Eve', 'seq': 50, 'ts': '2025-09-09T06:00:04+00:00', 'source': 'json_producer_USER'}
+2025-09-09 01:00:05 | INFO | Sent message to topic 'buzzline_json': {'message': 'Hello, Kafka world!', 'author': 'Bob', 'seq': 51, 'ts': '2025-09-09T06:00:05+00:00', 'source': 'json_producer_USER'}
+2025-09-09 01:00:06 | INFO | Sent message to topic 'buzzline_json': {'message': 'This is a buzz message.', 'author': 'Alice', 'seq': 52, 'ts': '2025-09-09T06:00:06+00:00', 'source': 'json_producer_USER'}
+2025-09-09 01:00:07 | INFO | Sent message to topic 'buzzline_json': {'message': 'Streaming data is fun.', 'author': 'Eve', 'seq': 53, 'ts': '2025-09-09T06:00:07+00:00', 'source': 'json_producer_USER'}
+2025-09-09 01:00:08 | INFO | Sent message to topic 'buzzline_json': {'message': 'Kafka is awesome.', 'author': 'Alice', 'seq': 54, 'ts': '2025-09-09T06:00:08+00:00', 'source': 'json_producer_USER'}
+2025-09-09 01:00:09 | INFO | Sent message to topic 'buzzline_json': {'message': 'JSON makes life easier.', 'author': 'Bob', 'seq': 55, 'ts': '2025-09-09T06:00:09+00:00', 'source': 'json_producer_USER'}
+2025-09-09 01:00:10 | INFO | Sent message to topic 'buzzline_json': {'message': 'This is a buzz message.', 'author': 'Charlie', 'seq': 56, 'ts': '2025-09-09T06:00:10+00:00', 'source': 'json_producer_USER'}
+2025-09-09 01:00:11 | INFO | Sent message to topic 'buzzline_json': {'message': 'Have a great day!', 'author': 'Diana', 'seq': 57, 'ts': '2025-09-09T06:00:11+00:00', 'source': 'json_producer_USER'}
+2025-09-09 01:00:12 | INFO | Sent message to topic 'buzzline_json': {'message': 'Distributed systems are fascinating.', 'author': 'Bob', 'seq': 58, 'ts': '2025-09-09T06:00:12+00:00', 'source': 'json_producer_USER'}
+2025-09-09 01:00:13 | INFO | Sent message to topic 'buzzline_json': {'message': 'Kafka is awesome.', 'author': 'Alice', 'seq': 59, 'ts': '2025-09-09T06:00:13+00:00', 'source': 'json_producer_USER'}
+2025-09-09 01:00:14 | INFO | Sent message to topic 'buzzline_json': {'message': 'Streaming data is fun.', 'author': 'Alice', 'seq': 60, 'ts': '2025-09-09T06:00:14+00:00', 'source': 'json_producer_USER'}
+2025-09-09 01:00:15 | INFO | Sent message to topic 'buzzline_json': {'message': 'Have a great day!', 'author': 'Diana', 'seq': 61, 'ts': '2025-09-09T06:00:15+00:00', 'source': 'json_producer_USER'}
+2025-09-09 01:00:16 | INFO | Sent message to topic 'buzzline_json': {'message': 'Streaming data is fun.', 'author': 'Alice', 'seq': 62, 'ts': '2025-09-09T06:00:16+00:00', 'source': 'json_producer_USER'}
+2025-09-09 01:00:17 | INFO | Sent message to topic 'buzzline_json': {'message': 'This is a buzz message.', 'author': 'Diana', 'seq': 63, 'ts': '2025-09-09T06:00:17+00:00', 'source': 'json_producer_USER'}
+2025-09-09 01:00:18 | INFO | Sent message to topic 'buzzline_json': {'message': 'Data engineering is my passion.', 'author': 'Bob', 'seq': 64, 'ts': '2025-09-09T06:00:18+00:00', 'source': 'json_producer_USER'}
+2025-09-09 01:00:19 | INFO | Sent message to topic 'buzzline_json': {'message': 'Have a great day!', 'author': 'Diana', 'seq': 65, 'ts': '2025-09-09T06:00:19+00:00', 'source': 'json_producer_USER'}
+2025-09-09 01:00:20 | INFO | Sent message to topic 'buzzline_json': {'message': 'Kafka is awesome.', 'author': 'Alice', 'seq': 66, 'ts': '2025-09-09T06:00:20+00:00', 'source': 'json_producer_USER'}
+2025-09-09 01:00:21 | INFO | Sent message to topic 'buzzline_json': {'message': 'Kafka is awesome.', 'author': 'Eve', 'seq': 67, 'ts': '2025-09-09T06:00:21+00:00', 'source': 'json_producer_USER'}
+2025-09-09 01:00:22 | INFO | Sent message to topic 'buzzline_json': {'message': 'Have a great day!', 'author': 'Diana', 'seq': 68, 'ts': '2025-09-09T06:00:22+00:00', 'source': 'json_producer_USER'}
+2025-09-09 01:00:23 | INFO | Sent message to topic 'buzzline_json': {'message': 'Buzz messages for everyone.', 'author': 'Charlie', 'seq': 69, 'ts': '2025-09-09T06:00:23+00:00', 'source': 'json_producer_USER'}
+2025-09-09 01:00:24 | INFO | Sent message to topic 'buzzline_json': {'message': 'This is a buzz message.', 'author': 'Charlie', 'seq': 70, 'ts': '2025-09-09T06:00:24+00:00', 'source': 'json_producer_USER'}
+2025-09-09 01:00:25 | WARNING | Producer interrupted by user.
+2025-09-09 01:00:25 | INFO | Kafka producer closed.
+2025-09-09 01:00:25 | INFO | END producer.
+2025-09-09 01:28:59 | INFO | Logging to file: logs/project_log.log
+2025-09-09 01:28:59 | INFO | Log sanitization enabled, personal info removed
+2025-09-09 01:28:59 | INFO | Project root: /Users/USER/Projects/buzzline-03-USER
+2025-09-09 01:28:59 | INFO | Data folder: /Users/USER/Projects/buzzline-03-USER/data
+2025-09-09 01:28:59 | INFO | Data file: /Users/USER/Projects/buzzline-03-USER/data/smoker_temps.csv
+2025-09-09 01:28:59 | INFO | START producer.
+2025-09-09 01:28:59 | INFO | Kafka broker address: localhost:9092
+2025-09-09 01:28:59 | INFO | Kafka is ready. Brokers: {'throttle_time_ms': 0, 'brokers': [{'node_id': 1, 'host': 'localhost', 'port': 9092, 'rack': None}], 'cluster_id': 'LwsdMbqGSlqy8MlIvhUcAg', 'controller_id': 1}
+2025-09-09 01:28:59 | INFO | Kafka topic: smoker_csv
+2025-09-09 01:28:59 | INFO | Message interval: 5 seconds
+2025-09-09 01:28:59 | INFO | Kafka broker address: localhost:9092
+2025-09-09 01:28:59 | INFO | Connecting to Kafka broker at localhost:9092...
+2025-09-09 01:28:59 | INFO | Kafka producer successfully created.
+2025-09-09 01:28:59 | INFO | Kafka broker address: localhost:9092
+2025-09-09 01:29:00 | INFO | Topic 'smoker_csv' already exists. Recreating fresh...
+2025-09-09 01:29:00 | INFO | Requested deletion of topic 'smoker_csv'.
+2025-09-09 01:29:00 | INFO | Topic 'smoker_csv' created successfully.
+2025-09-09 01:29:00 | INFO | Kafka topic 'smoker_csv' is ready.
+2025-09-09 01:29:00 | INFO | Starting message production to topic 'smoker_csv'...
+2025-09-09 01:29:00 | INFO | Opening data file in read mode: /Users/USER/Projects/buzzline-03-USER/data/smoker_temps.csv
+2025-09-09 01:29:00 | INFO | Reading data from file: /Users/USER/Projects/buzzline-03-USER/data/smoker_temps.csv
+2025-09-09 01:29:00 | INFO | Sent message to topic 'smoker_csv': {'ts': '2025-09-09T06:29:00', 'seq': 1, 'temperature_f': 70.4, 'celsius': 21.3, 'status': 'low', 'source': 'csv_producer_USER'}
+2025-09-09 01:29:05 | INFO | Sent message to topic 'smoker_csv': {'ts': '2025-09-09T06:29:05', 'seq': 2, 'temperature_f': 70.8, 'celsius': 21.6, 'status': 'low', 'source': 'csv_producer_USER'}
+2025-09-09 01:29:10 | INFO | Sent message to topic 'smoker_csv': {'ts': '2025-09-09T06:29:10', 'seq': 3, 'temperature_f': 71.2, 'celsius': 21.8, 'status': 'low', 'source': 'csv_producer_USER'}
+2025-09-09 01:29:13 | INFO | Logging to file: logs/project_log.log
+2025-09-09 01:29:13 | INFO | Log sanitization enabled, personal info removed
+2025-09-09 01:29:13 | INFO | START consumer.
+2025-09-09 01:29:13 | INFO | Kafka topic: smoker_csv
+2025-09-09 01:29:13 | INFO | Kafka consumer group id: smoker_group
+2025-09-09 01:29:13 | INFO | Rolling window size: 10
+2025-09-09 01:29:13 | INFO | Consumer: Topic 'smoker_csv' and group 'smoker_group'...
+2025-09-09 01:29:13 | INFO | Rolling window size: 10
+2025-09-09 01:29:13 | INFO | High-temp alert threshold: 275.0 F
+2025-09-09 01:29:13 | INFO | Kafka broker address: localhost:9092
+2025-09-09 01:29:13 | INFO | Creating Kafka consumer. Topic='smoker_csv' and group ID='smoker_group'.
+2025-09-09 01:29:13 | INFO | Kafka consumer created successfully.
+2025-09-09 01:29:13 | INFO | Polling messages from topic 'smoker_csv'...
+2025-09-09 01:29:15 | INFO | Sent message to topic 'smoker_csv': {'ts': '2025-09-09T06:29:15', 'seq': 4, 'temperature_f': 71.6, 'celsius': 22.0, 'status': 'low', 'source': 'csv_producer_USER'}
+2025-09-09 01:29:16 | INFO | Processed JSON message: {'ts': '2025-09-09T06:29:00', 'seq': 1, 'temperature_f': 70.4, 'celsius': 21.3, 'status': 'low', 'source': 'csv_producer_USER'}
+2025-09-09 01:29:16 | INFO | Rolling window size: 10
+2025-09-09 01:29:16 | INFO | Processed JSON message: {'ts': '2025-09-09T06:29:05', 'seq': 2, 'temperature_f': 70.8, 'celsius': 21.6, 'status': 'low', 'source': 'csv_producer_USER'}
+2025-09-09 01:29:16 | INFO | Rolling window size: 10
+2025-09-09 01:29:16 | INFO | Processed JSON message: {'ts': '2025-09-09T06:29:10', 'seq': 3, 'temperature_f': 71.2, 'celsius': 21.8, 'status': 'low', 'source': 'csv_producer_USER'}
+2025-09-09 01:29:16 | INFO | Rolling window size: 10
+2025-09-09 01:29:16 | INFO | Processed JSON message: {'ts': '2025-09-09T06:29:15', 'seq': 4, 'temperature_f': 71.6, 'celsius': 22.0, 'status': 'low', 'source': 'csv_producer_USER'}
+2025-09-09 01:29:16 | INFO | Rolling window size: 10
+2025-09-09 01:29:20 | INFO | Sent message to topic 'smoker_csv': {'ts': '2025-09-09T06:29:20', 'seq': 5, 'temperature_f': 72.0, 'celsius': 22.2, 'status': 'low', 'source': 'csv_producer_USER'}
+2025-09-09 01:29:20 | INFO | Processed JSON message: {'ts': '2025-09-09T06:29:20', 'seq': 5, 'temperature_f': 72.0, 'celsius': 22.2, 'status': 'low', 'source': 'csv_producer_USER'}
+2025-09-09 01:29:20 | INFO | Rolling window size: 10
+2025-09-09 01:29:25 | INFO | Sent message to topic 'smoker_csv': {'ts': '2025-09-09T06:29:25', 'seq': 6, 'temperature_f': 72.4, 'celsius': 22.4, 'status': 'low', 'source': 'csv_producer_USER'}
+2025-09-09 01:29:25 | INFO | Processed JSON message: {'ts': '2025-09-09T06:29:25', 'seq': 6, 'temperature_f': 72.4, 'celsius': 22.4, 'status': 'low', 'source': 'csv_producer_USER'}
+2025-09-09 01:29:25 | INFO | Rolling window size: 10
+2025-09-09 01:29:30 | INFO | Sent message to topic 'smoker_csv': {'ts': '2025-09-09T06:29:30', 'seq': 7, 'temperature_f': 72.8, 'celsius': 22.7, 'status': 'low', 'source': 'csv_producer_USER'}
+2025-09-09 01:29:30 | INFO | Processed JSON message: {'ts': '2025-09-09T06:29:30', 'seq': 7, 'temperature_f': 72.8, 'celsius': 22.7, 'status': 'low', 'source': 'csv_producer_USER'}
+2025-09-09 01:29:30 | INFO | Rolling window size: 10
+2025-09-09 01:29:35 | INFO | Sent message to topic 'smoker_csv': {'ts': '2025-09-09T06:29:35', 'seq': 8, 'temperature_f': 73.2, 'celsius': 22.9, 'status': 'low', 'source': 'csv_producer_USER'}
+2025-09-09 01:29:35 | INFO | Processed JSON message: {'ts': '2025-09-09T06:29:35', 'seq': 8, 'temperature_f': 73.2, 'celsius': 22.9, 'status': 'low', 'source': 'csv_producer_USER'}
+2025-09-09 01:29:35 | INFO | Rolling window size: 10
+2025-09-09 01:29:40 | INFO | Sent message to topic 'smoker_csv': {'ts': '2025-09-09T06:29:40', 'seq': 9, 'temperature_f': 73.6, 'celsius': 23.1, 'status': 'low', 'source': 'csv_producer_USER'}
+2025-09-09 01:29:40 | INFO | Processed JSON message: {'ts': '2025-09-09T06:29:40', 'seq': 9, 'temperature_f': 73.6, 'celsius': 23.1, 'status': 'low', 'source': 'csv_producer_USER'}
+2025-09-09 01:29:40 | INFO | Rolling window size: 10
+2025-09-09 01:29:45 | INFO | Sent message to topic 'smoker_csv': {'ts': '2025-09-09T06:29:45', 'seq': 10, 'temperature_f': 74.0, 'celsius': 23.3, 'status': 'low', 'source': 'csv_producer_USER'}
+2025-09-09 01:29:45 | INFO | Processed JSON message: {'ts': '2025-09-09T06:29:45', 'seq': 10, 'temperature_f': 74.0, 'celsius': 23.3, 'status': 'low', 'source': 'csv_producer_USER'}
+2025-09-09 01:29:45 | INFO | Rolling window size: 10
+2025-09-09 01:29:45 | INFO | Max stall temperature range: 0.2 F
+2025-09-09 01:29:50 | INFO | Sent message to topic 'smoker_csv': {'ts': '2025-09-09T06:29:50', 'seq': 11, 'temperature_f': 74.4, 'celsius': 23.6, 'status': 'low', 'source': 'csv_producer_USER'}
+2025-09-09 01:29:50 | INFO | Processed JSON message: {'ts': '2025-09-09T06:29:50', 'seq': 11, 'temperature_f': 74.4, 'celsius': 23.6, 'status': 'low', 'source': 'csv_producer_USER'}
+2025-09-09 01:29:50 | INFO | Rolling window size: 10
+2025-09-09 01:29:50 | INFO | Max stall temperature range: 0.2 F
+2025-09-09 01:29:55 | INFO | Sent message to topic 'smoker_csv': {'ts': '2025-09-09T06:29:55', 'seq': 12, 'temperature_f': 74.8, 'celsius': 23.8, 'status': 'low', 'source': 'csv_producer_USER'}
+2025-09-09 01:29:55 | INFO | Processed JSON message: {'ts': '2025-09-09T06:29:55', 'seq': 12, 'temperature_f': 74.8, 'celsius': 23.8, 'status': 'low', 'source': 'csv_producer_USER'}
+2025-09-09 01:29:55 | INFO | Rolling window size: 10
+2025-09-09 01:29:55 | INFO | Max stall temperature range: 0.2 F
+2025-09-09 01:30:00 | INFO | Sent message to topic 'smoker_csv': {'ts': '2025-09-09T06:30:00', 'seq': 13, 'temperature_f': 75.2, 'celsius': 24.0, 'status': 'low', 'source': 'csv_producer_USER'}
+2025-09-09 01:30:00 | INFO | Processed JSON message: {'ts': '2025-09-09T06:30:00', 'seq': 13, 'temperature_f': 75.2, 'celsius': 24.0, 'status': 'low', 'source': 'csv_producer_USER'}
+2025-09-09 01:30:00 | INFO | Rolling window size: 10
+2025-09-09 01:30:00 | INFO | Max stall temperature range: 0.2 F
+2025-09-09 01:30:05 | INFO | Sent message to topic 'smoker_csv': {'ts': '2025-09-09T06:30:05', 'seq': 14, 'temperature_f': 75.6, 'celsius': 24.2, 'status': 'low', 'source': 'csv_producer_USER'}
+2025-09-09 01:30:05 | INFO | Processed JSON message: {'ts': '2025-09-09T06:30:05', 'seq': 14, 'temperature_f': 75.6, 'celsius': 24.2, 'status': 'low', 'source': 'csv_producer_USER'}
+2025-09-09 01:30:05 | INFO | Rolling window size: 10
+2025-09-09 01:30:05 | INFO | Max stall temperature range: 0.2 F
+2025-09-09 01:30:10 | INFO | Sent message to topic 'smoker_csv': {'ts': '2025-09-09T06:30:10', 'seq': 15, 'temperature_f': 76.0, 'celsius': 24.4, 'status': 'low', 'source': 'csv_producer_USER'}
+2025-09-09 01:30:10 | INFO | Processed JSON message: {'ts': '2025-09-09T06:30:10', 'seq': 15, 'temperature_f': 76.0, 'celsius': 24.4, 'status': 'low', 'source': 'csv_producer_USER'}
+2025-09-09 01:30:10 | INFO | Rolling window size: 10
+2025-09-09 01:30:10 | INFO | Max stall temperature range: 0.2 F
+2025-09-09 01:30:15 | INFO | Sent message to topic 'smoker_csv': {'ts': '2025-09-09T06:30:15', 'seq': 16, 'temperature_f': 76.4, 'celsius': 24.7, 'status': 'low', 'source': 'csv_producer_USER'}
+2025-09-09 01:30:15 | INFO | Processed JSON message: {'ts': '2025-09-09T06:30:15', 'seq': 16, 'temperature_f': 76.4, 'celsius': 24.7, 'status': 'low', 'source': 'csv_producer_USER'}
+2025-09-09 01:30:15 | INFO | Rolling window size: 10
+2025-09-09 01:30:15 | INFO | Max stall temperature range: 0.2 F
+2025-09-09 01:30:20 | INFO | Sent message to topic 'smoker_csv': {'ts': '2025-09-09T06:30:20', 'seq': 17, 'temperature_f': 76.8, 'celsius': 24.9, 'status': 'low', 'source': 'csv_producer_USER'}
+2025-09-09 01:30:20 | INFO | Processed JSON message: {'ts': '2025-09-09T06:30:20', 'seq': 17, 'temperature_f': 76.8, 'celsius': 24.9, 'status': 'low', 'source': 'csv_producer_USER'}
+2025-09-09 01:30:20 | INFO | Rolling window size: 10
+2025-09-09 01:30:20 | INFO | Max stall temperature range: 0.2 F
+2025-09-09 01:30:25 | INFO | Sent message to topic 'smoker_csv': {'ts': '2025-09-09T06:30:25', 'seq': 18, 'temperature_f': 77.2, 'celsius': 25.1, 'status': 'low', 'source': 'csv_producer_USER'}
+2025-09-09 01:30:25 | INFO | Processed JSON message: {'ts': '2025-09-09T06:30:25', 'seq': 18, 'temperature_f': 77.2, 'celsius': 25.1, 'status': 'low', 'source': 'csv_producer_USER'}
+2025-09-09 01:30:25 | INFO | Rolling window size: 10
+2025-09-09 01:30:25 | INFO | Max stall temperature range: 0.2 F
+2025-09-09 01:30:30 | INFO | Sent message to topic 'smoker_csv': {'ts': '2025-09-09T06:30:30', 'seq': 19, 'temperature_f': 77.6, 'celsius': 25.3, 'status': 'low', 'source': 'csv_producer_USER'}
+2025-09-09 01:30:30 | INFO | Processed JSON message: {'ts': '2025-09-09T06:30:30', 'seq': 19, 'temperature_f': 77.6, 'celsius': 25.3, 'status': 'low', 'source': 'csv_producer_USER'}
+2025-09-09 01:30:30 | INFO | Rolling window size: 10
+2025-09-09 01:30:30 | INFO | Max stall temperature range: 0.2 F
+2025-09-09 01:30:35 | INFO | Sent message to topic 'smoker_csv': {'ts': '2025-09-09T06:30:35', 'seq': 20, 'temperature_f': 78.0, 'celsius': 25.6, 'status': 'low', 'source': 'csv_producer_USER'}
+2025-09-09 01:30:35 | INFO | Processed JSON message: {'ts': '2025-09-09T06:30:35', 'seq': 20, 'temperature_f': 78.0, 'celsius': 25.6, 'status': 'low', 'source': 'csv_producer_USER'}
+2025-09-09 01:30:35 | INFO | Rolling window size: 10
+2025-09-09 01:30:35 | INFO | Max stall temperature range: 0.2 F
+2025-09-09 01:30:40 | INFO | Sent message to topic 'smoker_csv': {'ts': '2025-09-09T06:30:40', 'seq': 21, 'temperature_f': 78.4, 'celsius': 25.8, 'status': 'low', 'source': 'csv_producer_USER'}
+2025-09-09 01:30:40 | INFO | Processed JSON message: {'ts': '2025-09-09T06:30:40', 'seq': 21, 'temperature_f': 78.4, 'celsius': 25.8, 'status': 'low', 'source': 'csv_producer_USER'}
+2025-09-09 01:30:40 | INFO | Rolling window size: 10
+2025-09-09 01:30:40 | INFO | Max stall temperature range: 0.2 F
+2025-09-09 01:30:45 | INFO | Sent message to topic 'smoker_csv': {'ts': '2025-09-09T06:30:45', 'seq': 22, 'temperature_f': 78.8, 'celsius': 26.0, 'status': 'low', 'source': 'csv_producer_USER'}
+2025-09-09 01:30:45 | INFO | Processed JSON message: {'ts': '2025-09-09T06:30:45', 'seq': 22, 'temperature_f': 78.8, 'celsius': 26.0, 'status': 'low', 'source': 'csv_producer_USER'}
+2025-09-09 01:30:45 | INFO | Rolling window size: 10
+2025-09-09 01:30:45 | INFO | Max stall temperature range: 0.2 F
+2025-09-09 01:30:50 | INFO | Sent message to topic 'smoker_csv': {'ts': '2025-09-09T06:30:50', 'seq': 23, 'temperature_f': 79.2, 'celsius': 26.2, 'status': 'low', 'source': 'csv_producer_USER'}
+2025-09-09 01:30:50 | INFO | Processed JSON message: {'ts': '2025-09-09T06:30:50', 'seq': 23, 'temperature_f': 79.2, 'celsius': 26.2, 'status': 'low', 'source': 'csv_producer_USER'}
+2025-09-09 01:30:50 | INFO | Rolling window size: 10
+2025-09-09 01:30:50 | INFO | Max stall temperature range: 0.2 F
+2025-09-09 01:30:55 | INFO | Sent message to topic 'smoker_csv': {'ts': '2025-09-09T06:30:55', 'seq': 24, 'temperature_f': 79.6, 'celsius': 26.4, 'status': 'low', 'source': 'csv_producer_USER'}
+2025-09-09 01:30:55 | INFO | Processed JSON message: {'ts': '2025-09-09T06:30:55', 'seq': 24, 'temperature_f': 79.6, 'celsius': 26.4, 'status': 'low', 'source': 'csv_producer_USER'}
+2025-09-09 01:30:55 | INFO | Rolling window size: 10
+2025-09-09 01:30:55 | INFO | Max stall temperature range: 0.2 F
+2025-09-09 01:31:00 | INFO | Sent message to topic 'smoker_csv': {'ts': '2025-09-09T06:31:00', 'seq': 25, 'temperature_f': 80.0, 'celsius': 26.7, 'status': 'low', 'source': 'csv_producer_USER'}
+2025-09-09 01:31:00 | INFO | Processed JSON message: {'ts': '2025-09-09T06:31:00', 'seq': 25, 'temperature_f': 80.0, 'celsius': 26.7, 'status': 'low', 'source': 'csv_producer_USER'}
+2025-09-09 01:31:00 | INFO | Rolling window size: 10
+2025-09-09 01:31:00 | INFO | Max stall temperature range: 0.2 F
+2025-09-09 01:31:05 | INFO | Sent message to topic 'smoker_csv': {'ts': '2025-09-09T06:31:05', 'seq': 26, 'temperature_f': 80.4, 'celsius': 26.9, 'status': 'low', 'source': 'csv_producer_USER'}
+2025-09-09 01:31:05 | INFO | Processed JSON message: {'ts': '2025-09-09T06:31:05', 'seq': 26, 'temperature_f': 80.4, 'celsius': 26.9, 'status': 'low', 'source': 'csv_producer_USER'}
+2025-09-09 01:31:05 | INFO | Rolling window size: 10
+2025-09-09 01:31:05 | INFO | Max stall temperature range: 0.2 F
+2025-09-09 01:31:10 | INFO | Sent message to topic 'smoker_csv': {'ts': '2025-09-09T06:31:10', 'seq': 27, 'temperature_f': 80.8, 'celsius': 27.1, 'status': 'low', 'source': 'csv_producer_USER'}
+2025-09-09 01:31:10 | INFO | Processed JSON message: {'ts': '2025-09-09T06:31:10', 'seq': 27, 'temperature_f': 80.8, 'celsius': 27.1, 'status': 'low', 'source': 'csv_producer_USER'}
+2025-09-09 01:31:10 | INFO | Rolling window size: 10
+2025-09-09 01:31:10 | INFO | Max stall temperature range: 0.2 F
+2025-09-09 01:31:15 | INFO | Sent message to topic 'smoker_csv': {'ts': '2025-09-09T06:31:15', 'seq': 28, 'temperature_f': 81.2, 'celsius': 27.3, 'status': 'low', 'source': 'csv_producer_USER'}
+2025-09-09 01:31:15 | INFO | Processed JSON message: {'ts': '2025-09-09T06:31:15', 'seq': 28, 'temperature_f': 81.2, 'celsius': 27.3, 'status': 'low', 'source': 'csv_producer_USER'}
+2025-09-09 01:31:15 | INFO | Rolling window size: 10
+2025-09-09 01:31:15 | INFO | Max stall temperature range: 0.2 F

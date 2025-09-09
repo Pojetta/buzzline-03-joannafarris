@@ -67,6 +67,12 @@ def get_rolling_window_size() -> int:
     logger.info(f"Rolling window size: {window_size}")
     return window_size
 
+def get_alert_threshold() -> float:
+    """High-temp alert threshold in °F."""
+    alert_hi = float(os.getenv("SMOKER_ALERT_HIGH_F", 275))
+    logger.info(f"High-temp alert threshold: {alert_hi} F")
+    return alert_hi
+
 
 #####################################
 # Define a function to detect a stall
@@ -107,38 +113,53 @@ def detect_stall(rolling_window_deque: deque) -> bool:
 # #####################################
 
 
-def process_message(message: str, rolling_window: deque, window_size: int) -> None:
+def process_message(message: str, rolling_window: deque, window_size: int, alert_hi_f: float) -> None:
     """
-    Process a JSON-transferred CSV message and check for stalls.
-
-    Args:
-        message (str): JSON message received from Kafka.
-        rolling_window (deque): Rolling window of temperature readings.
-        window_size (int): Size of the rolling window.
+    Process a JSON-transferred CSV message and run simple real-time analytics:
+      - keep a rolling window of temperatures
+      - detect stalls (very small range over last N)
+      - alert on high temperature (>= alert_hi_f)
+      - alert if producer flagged status == 'alert'
     """
     try:
-        # Log the raw message for debugging
         logger.debug(f"Raw message: {message}")
 
-        # Parse the JSON string into a Python dictionary
+        # JSON string -> dict
         data: dict = json.loads(message)
-        temperature = data.get("temperature")
-        timestamp = data.get("timestamp")
         logger.info(f"Processed JSON message: {data}")
 
-        # Ensure the required fields are present
-        if temperature is None or timestamp is None:
-            logger.error(f"Invalid message format: {message}")
+        # Match your producer's keys first; fall back to example keys
+        temp = data.get("temperature_f", data.get("temperature"))
+        ts = data.get("ts", data.get("timestamp"))
+        status = (data.get("status") or "").strip().lower()
+
+        if temp is None or ts is None:
+            logger.error(f"Invalid message format (missing temp/ts): {message}")
             return
 
-        # Append the temperature reading to the rolling window
-        rolling_window.append(temperature)
+        # Ensure numeric temperature
+        try:
+            temp_f = float(temp)
+        except (TypeError, ValueError):
+            logger.error(f"Non-numeric temperature value: {temp!r}")
+            return
 
-        # Check for a stall
+        # 1) Maintain rolling window
+        rolling_window.append(temp_f)
+
+        # 2) Stall detection (uses your existing detect_stall + env threshold)
         if detect_stall(rolling_window):
             logger.info(
-                f"STALL DETECTED at {timestamp}: Temp stable at {temperature}°F over last {window_size} readings."
+                f"STALL DETECTED at {ts}: temp ~{round(temp_f,1)}°F over last {window_size} readings."
             )
+
+        # 3) High-temp alert from consumer perspective
+        if temp_f >= alert_hi_f:
+            logger.warning(f"ALERT: high smoker temp {temp_f}°F at {ts} (>= {alert_hi_f})")
+
+        # 4) Respect producer's status flag if present
+        if status == "alert":
+            logger.warning(f"ALERT (from producer status): {temp_f}°F at {ts}")
 
     except json.JSONDecodeError as e:
         logger.error(f"JSON decoding error for message '{message}': {e}")
@@ -169,6 +190,8 @@ def main() -> None:
     logger.info(f"Rolling window size: {window_size}")
 
     rolling_window = deque(maxlen=window_size)
+    alert_hi_f = get_alert_threshold()
+
 
     # Create the Kafka consumer using the helpful utility function.
     consumer = create_kafka_consumer(topic, group_id)
@@ -179,7 +202,7 @@ def main() -> None:
         for message in consumer:
             message_str = message.value
             logger.debug(f"Received message at offset {message.offset}: {message_str}")
-            process_message(message_str, rolling_window, window_size)
+            process_message(message_str, rolling_window, window_size, alert_hi_f)
     except KeyboardInterrupt:
         logger.warning("Consumer interrupted by user.")
     except Exception as e:

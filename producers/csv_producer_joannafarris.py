@@ -80,35 +80,68 @@ logger.info(f"Data file: {DATA_FILE}")
 
 def generate_messages(file_path: pathlib.Path):
     """
-    Read from a csv file and yield records one by one, continuously.
+    Read from a CSV file and yield enriched records forever.
 
-    Args:
-        file_path (pathlib.Path): Path to the CSV file.
-
-    Yields:
-        str: CSV row formatted as a string.
+    Processing added:
+      - ts (UTC timestamp in ISO format)
+      - seq (per-run counter)
+      - celsius (derived from temperature F)
+      - status: low / target / high / alert (based on thresholds)
+      - source: csv_producer_joannafarris
     """
+    seq = 0
+
+    # Temperature bands (override via .env if you want)
+    target_lo = float(os.getenv("SMOKER_TARGET_MIN_F", "215"))
+    target_hi = float(os.getenv("SMOKER_TARGET_MAX_F", "225"))
+    alert_hi  = float(os.getenv("SMOKER_ALERT_HIGH_F", "275"))
+
     while True:
         try:
-            logger.info(f"Opening data file in read mode: {DATA_FILE}")
-            with open(DATA_FILE, "r") as csv_file:
-                logger.info(f"Reading data from file: {DATA_FILE}")
+            logger.info(f"Opening data file in read mode: {file_path}")
+            with open(file_path, "r") as csv_file:
+                logger.info(f"Reading data from file: {file_path}")
+                reader = csv.DictReader(csv_file)
 
-                csv_reader = csv.DictReader(csv_file)
-                for row in csv_reader:
-                    # Ensure required fields are present
-                    if "temperature" not in row:
+                for row in reader:
+                    # Validate presence and parse temperature
+                    if "temperature" not in row or not str(row["temperature"]).strip():
                         logger.error(f"Missing 'temperature' column in row: {row}")
                         continue
+                    try:
+                        temp_f = float(str(row["temperature"]).strip())
+                    except ValueError:
+                        logger.error(f"Invalid temperature value: {row['temperature']!r}")
+                        continue
 
-                    # Generate a timestamp and prepare the message
-                    current_timestamp = datetime.utcnow().isoformat()
+                    # Derive fields
+                    temp_c = round((temp_f - 32) * 5.0 / 9.0, 1)
+                    if temp_f < target_lo:
+                        status = "low"
+                    elif temp_f <= target_hi:
+                        status = "target"
+                    elif temp_f < alert_hi:
+                        status = "high"
+                    else:
+                        status = "alert"
+
+                    seq += 1
                     message = {
-                        "timestamp": current_timestamp,
-                        "temperature": float(row["temperature"]),
+                        "ts": datetime.utcnow().isoformat(timespec="seconds"),
+                        "seq": seq,
+                        "temperature_f": temp_f,
+                        "celsius": temp_c,
+                        "status": status,
+                        "source": "csv_producer_joannafarris",
                     }
+
+                    # Simple alert in logs for out-of-range temps
+                    if status == "alert":
+                        logger.warning(f"ALERT: high smoker temp {temp_f}F (seq={seq})")
+
                     logger.debug(f"Generated message: {message}")
                     yield message
+
         except FileNotFoundError:
             logger.error(f"File not found: {file_path}. Exiting.")
             sys.exit(1)
