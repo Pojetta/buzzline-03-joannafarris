@@ -81,32 +81,42 @@ logger.info(f"Data file: {DATA_FILE}")
 #####################################
 
 
-
-
 def generate_messages(file_path: pathlib.Path) -> Generator[Dict[str, Any], None, None]:
     """
-    Read from a JSON file and yield them one by one, continuously.
-
-    Args:
-        file_path (pathlib.Path): Path to the JSON file.
-
-    Yields:
-        dict: A dictionary containing the JSON data.
+    Read records from a JSON file and yield enriched messages forever.
+    Adds a timestamp, a per-run sequence number, and a stable 'source' field.
     """
+    from datetime import datetime, timezone
+
     while True:
         try:
-            logger.info(f"Opening data file in read mode: {DATA_FILE}")
-            with open(DATA_FILE, "r") as json_file:
-                logger.info(f"Reading data from file: {DATA_FILE}")
+            logger.info(f"Opening data file in read mode: {file_path}")
+            with open(file_path, "r") as json_file:
+                logger.info(f"Reading data from file: {file_path}")
 
-                # Load the JSON file as a list of dictionaries
+                # Expect a list of objects like {"message": "...", "author": "..."}
                 json_data: list[Dict[str, Any]] = json.load(json_file)
+                if not isinstance(json_data, list):
+                    logger.error("Input JSON must be a list of objects.")
+                    sys.exit(2)
 
-                # Iterate over the entries in the JSON file
-                for buzz_entry in json_data:
-                    logger.debug(f"Generated JSON: {buzz_entry}")
-                    yield buzz_entry
-        
+                for seq, rec in enumerate(json_data, start=1):
+                    if not isinstance(rec, dict):
+                        logger.debug(f"Skipping non-object at index {seq}: {rec!r}")
+                        continue
+
+                    # Minimal “processing”: normalize + enrich
+                    out: Dict[str, Any] = {
+                        "message": str(rec.get("message", "")).strip(),
+                        "author": str(rec.get("author", "unknown")).strip(),
+                        "seq": seq,  # simple per-run counter
+                        "ts": datetime.now(timezone.utc).isoformat(timespec="seconds"),
+                        "source": "json_producer_joannafarris",
+                    }
+
+                    logger.debug(f"Generated JSON: {out}")
+                    yield out
+
         except FileNotFoundError:
             logger.error(f"File not found: {file_path}. Exiting.")
             sys.exit(1)

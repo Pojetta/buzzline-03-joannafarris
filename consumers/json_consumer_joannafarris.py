@@ -64,6 +64,8 @@ def get_kafka_consumer_group_id() -> str:
 # to ensure counts are integers
 # {author: count} author is the key and count is the value
 author_counts: defaultdict[str, int] = defaultdict(int)
+TOTAL_MESSAGES: int = 0
+ALERT_KEYWORDS = {"kafka", "error", "fail"}  # simple pattern match on message text
 
 
 #####################################
@@ -74,30 +76,52 @@ author_counts: defaultdict[str, int] = defaultdict(int)
 def process_message(message: str) -> None:
     """
     Process a single JSON message from Kafka.
-
-    Args:
-        message (str): The JSON message as a string.
+    Real-time analytics:
+      - count messages per author
+      - alert on keyword match in 'message'
+      - alert on missing/unknown author
+      - milestone alert when an author's count hits 5, 10, ...
+      - print a short summary every 10 total messages
     """
+    from typing import Any
+    global TOTAL_MESSAGES
+
     try:
-        # Log the raw message for debugging
         logger.debug(f"Raw message: {message}")
 
-        # Parse the JSON string into a Python dictionary
-        from typing import Any
+        # Deserialize JSON string -> dict
         message_dict: dict[str, Any] = json.loads(message)
-
-        # Ensure the processed JSON is logged for debugging
         logger.info(f"Processed JSON message: {message_dict}")
 
-        # Extract the 'author' field from the Python dictionary
-        author = message_dict.get("author", "unknown")
-        logger.info(f"Message received from author: {author}")
+        # Extract fields with safe defaults
+        text = str(message_dict.get("message", "")).strip()
+        author = str(message_dict.get("author", "unknown")).strip().lower() or "unknown"
 
-        # Increment the count for the author
+        # Update counters
         author_counts[author] += 1
+        TOTAL_MESSAGES += 1
 
-        # Log the updated counts
-        logger.info(f"Updated author counts: {dict(author_counts)}")
+        # ------- Alerts (simple, real-world-ish) -------
+        # 1) Keyword alert on message text (e.g., "kafka", "error", "fail")
+        if any(k in text.lower() for k in ALERT_KEYWORDS):
+            logger.warning(f"ALERT: keyword match in message (author={author}): {text}")
+
+        # 2) Author missing/unknown
+        if author == "unknown":
+            logger.warning("ALERT: message missing author")
+
+        # 3) Milestone per author (5, 10, 15, …)
+        if author_counts[author] % 5 == 0:
+            logger.info(f"Milestone: '{author}' reached {author_counts[author]} messages")
+
+        # Log current counts
+        logger.info(f"Author counts: {dict(author_counts)}")
+
+        # 4) Brief summary every 10 total messages
+        if TOTAL_MESSAGES % 10 == 0:
+            top = sorted(author_counts.items(), key=lambda x: x[1], reverse=True)[:3]
+            summary = ", ".join(f"{a}:{c}" for a, c in top) or "no data"
+            logger.info(f"Summary after {TOTAL_MESSAGES} msgs | top authors: {summary}")
 
     except json.JSONDecodeError:
         logger.error(f"Invalid JSON message: {message}")
